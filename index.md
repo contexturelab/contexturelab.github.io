@@ -7,12 +7,9 @@ title: Contexture Lab
   <img src="/assets/attachments/logo-lab.jpg" alt="Contexture Lab Logo" style="max-width: 400px; width: 100%; height: auto; margin-bottom: 1rem;">
 </div>
 
-# **Contexture Lab**
-### *The Laboratory for Contextual Structure & Dynamics*
+The Laboratory for Contextual Structure & Dynamics
 
-<div style="text-align: center; margin: 2rem 0;">
-  <strong>"Mapping the Fabric of Social Reality"</strong>
-</div>
+"Mapping the Fabric of Social Reality"
 
 ---
 
