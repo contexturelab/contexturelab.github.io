@@ -24,24 +24,21 @@ We believe that social reality is not a collection of isolated facts, but a cont
 
 ### Our Vision
 
-* **The Shift:** From **Discrete** (Static Categories) to **Continuous** (Dynamic Context)
-* **The Goal:** To map the "geometry" of how humans live, form groups, and construct knowledge
+Our research represents a fundamental shift in how we approach social data. Where traditional methods impose discrete categories and static labels, we develop techniques that reveal the continuous, dynamic context in which human behavior unfolds. We seek to map the "geometry" of how humans live, form groups, and construct knowledge—not as fixed points in space, but as fluid trajectories through a landscape of meaning.
 
 ### Core Philosophy
 
-We draw inspiration from the Japanese philosophical distinction between *Mono* and *Koto*:
-
-* **Mono (物 - Object):** Static nodes. Fixed labels. Binary oppositions.
-* **Koto (事 - Event/Experience):** Dynamic interactions. Unfolding events. The intangible "space between."
-
-> *"Other labs analyze the Mono (the dots). We analyze the Koto (the lines, the spaces, and the weaving)."*
+We draw inspiration from the Japanese philosophical distinction between *Mono* and *Koto*. **Mono (物)** refers to objects—the static nodes, fixed labels, and binary oppositions that dominate conventional data science. **Koto (事)**, by contrast, captures events and experiences—the dynamic interactions, unfolding processes, and intangible spaces between things. While other labs analyze the Mono (the dots), we analyze the Koto (the lines, the spaces, and the weaving). This distinction guides everything we do, from the questions we ask to the methods we develop.
 
 ### Research Pillars
 
-1. **Computational Constructionism** — Operationalizing Social Constructionism using Network Science and Deep Learning
-2. **The Geometry of Knowledge** — Mapping scientific innovation and "invisible value" using non-Euclidean geometry
-3. **Beyond Binaries** — Developing AI that resists binary classification, preserving the nuance and spectrum of human diversity
-4. **Agentic Structures** — Building AI agents that can navigate and assist in complex social contexts
+Our work centers on **Computational Constructionism**, the project of operationalizing social constructionist theory using network science and deep learning. We treat categories like "crime," "success," or "genius" not as natural kinds but as social constructions, and we use representation learning to reverse-engineer these constructions, revealing the continuous spectrum that exists before labels are applied.
+
+Through the lens of **The Geometry of Knowledge**, we map scientific innovation and what we call "invisible value"—the contributions that matter but go unrecognized by traditional metrics. By embedding knowledge networks in non-Euclidean spaces, particularly hyperbolic and Lorentzian geometries, we can capture hierarchical and temporal structures that Euclidean methods miss.
+
+We are committed to developing AI systems that move **Beyond Binaries**. Our methods resist the urge to classify, instead preserving the nuance and spectrum of human diversity. This is not just a technical choice but an ethical one, reflecting our belief that simplification often does violence to the phenomena we study.
+
+Finally, we build **Agentic Structures**—AI agents that can navigate these complex social contexts, not as external observers but as participants that understand the relational nature of meaning. These agents represent a new kind of computational tool, one that respects the contextual fabric of social reality.
 
 ### Director
 
