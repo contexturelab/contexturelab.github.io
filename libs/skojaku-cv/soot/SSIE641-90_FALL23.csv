@@ -1,0 +1,131 @@
+QUES,QUES_TEXT,ANS_TEXT,ANS_COUNT,ANS_PCT
+1,"The instructor is well prepared for class.","Not Applicable",0,0
+1,"The instructor is well prepared for class.","Very Low or Never",0,0
+1,"The instructor is well prepared for class.","Low",0,0
+1,"The instructor is well prepared for class.","Average",2,66.7
+1,"The instructor is well prepared for class.","High",1,33.300000000000004
+1,"The instructor is well prepared for class.","Very High or Always",0,0
+2,"The instructor demonstrates a thorough knowledge of the subject.","Not Applicable",0,0
+2,"The instructor demonstrates a thorough knowledge of the subject.","Very Low or Never",0,0
+2,"The instructor demonstrates a thorough knowledge of the subject.","Low",1,33.300000000000004
+2,"The instructor demonstrates a thorough knowledge of the subject.","Average",1,33.300000000000004
+2,"The instructor demonstrates a thorough knowledge of the subject.","High",1,33.300000000000004
+2,"The instructor demonstrates a thorough knowledge of the subject.","Very High or Always",0,0
+3,"The instructor communicates his/her subject well.","Not Applicable",0,0
+3,"The instructor communicates his/her subject well.","Very Low or Never",0,0
+3,"The instructor communicates his/her subject well.","Low",1,33.300000000000004
+3,"The instructor communicates his/her subject well.","Average",2,66.7
+3,"The instructor communicates his/her subject well.","High",0,0
+3,"The instructor communicates his/her subject well.","Very High or Always",0,0
+4,"The instructor explains complex ideas clearly.","Not Applicable",0,0
+4,"The instructor explains complex ideas clearly.","Very Low or Never",0,0
+4,"The instructor explains complex ideas clearly.","Low",1,33.300000000000004
+4,"The instructor explains complex ideas clearly.","Average",2,66.7
+4,"The instructor explains complex ideas clearly.","High",0,0
+4,"The instructor explains complex ideas clearly.","Very High or Always",0,0
+5,"The instructor stimulates my interest in the core subject.","Not Applicable",0,0
+5,"The instructor stimulates my interest in the core subject.","Very Low or Never",0,0
+5,"The instructor stimulates my interest in the core subject.","Low",1,33.300000000000004
+5,"The instructor stimulates my interest in the core subject.","Average",0,0
+5,"The instructor stimulates my interest in the core subject.","High",1,33.300000000000004
+5,"The instructor stimulates my interest in the core subject.","Very High or Always",1,33.300000000000004
+6,"The instructor is receptive to questions.","Not Applicable",0,0
+6,"The instructor is receptive to questions.","Very Low or Never",0,0
+6,"The instructor is receptive to questions.","Low",0,0
+6,"The instructor is receptive to questions.","Average",0,0
+6,"The instructor is receptive to questions.","High",0,0
+6,"The instructor is receptive to questions.","Very High or Always",3,100
+7,"The instructor is available to help me outside of class.","Not Applicable",0,0
+7,"The instructor is available to help me outside of class.","Very Low or Never",0,0
+7,"The instructor is available to help me outside of class.","Low",0,0
+7,"The instructor is available to help me outside of class.","Average",0,0
+7,"The instructor is available to help me outside of class.","High",1,33.300000000000004
+7,"The instructor is available to help me outside of class.","Very High or Always",2,66.7
+8,"The instructor encourages me to think analytically.","Not Applicable",0,0
+8,"The instructor encourages me to think analytically.","Very Low or Never",0,0
+8,"The instructor encourages me to think analytically.","Low",0,0
+8,"The instructor encourages me to think analytically.","Average",0,0
+8,"The instructor encourages me to think analytically.","High",2,66.7
+8,"The instructor encourages me to think analytically.","Very High or Always",1,33.300000000000004
+9,"Overall, the instructor is an effective teacher.","Not Applicable",0,0
+9,"Overall, the instructor is an effective teacher.","Very Low or Never",0,0
+9,"Overall, the instructor is an effective teacher.","Low",1,33.300000000000004
+9,"Overall, the instructor is an effective teacher.","Average",0,0
+9,"Overall, the instructor is an effective teacher.","High",2,66.7
+9,"Overall, the instructor is an effective teacher.","Very High or Always",0,0
+10,"My interest in subject before course","Low",0,0
+10,"My interest in subject before course","Medium",0,0
+10,"My interest in subject before course","High",3,100
+11,"My interest in subject after course","Low",1,33.300000000000004
+11,"My interest in subject after course","Medium",0,0
+11,"My interest in subject after course","High",2,66.7
+12,"Difficulty (relative to other courses)","Low",0,0
+12,"Difficulty (relative to other courses)","Medium",2,66.7
+12,"Difficulty (relative to other courses)","High",1,33.300000000000004
+13,"Workload (relative to other courses)","Low",0,0
+13,"Workload (relative to other courses)","Medium",1,33.300000000000004
+13,"Workload (relative to other courses)","High",2,66.7
+14,"Usefulness of texts","Low",2,66.7
+14,"Usefulness of texts","Medium",1,33.300000000000004
+14,"Usefulness of texts","High",0,0
+15,"Usefulness of homework assignments","Not Applicable",0,0
+15,"Usefulness of homework assignments","Low",0,0
+15,"Usefulness of homework assignments","Medium",2,66.7
+15,"Usefulness of homework assignments","High",1,33.300000000000004
+16,"Usefulness of lab assignments","Not Applicable",0,0
+16,"Usefulness of lab assignments","Low",0,0
+16,"Usefulness of lab assignments","Medium",1,33.300000000000004
+16,"Usefulness of lab assignments","High",2,66.7
+17,"Usefulness of examinations","Not Applicable",1,33.300000000000004
+17,"Usefulness of examinations","Low",1,33.300000000000004
+17,"Usefulness of examinations","Medium",0,0
+17,"Usefulness of examinations","High",1,33.300000000000004
+18,"Usefulness of class discussions","Not Applicable",0,0
+18,"Usefulness of class discussions","Low",1,33.300000000000004
+18,"Usefulness of class discussions","Medium",1,33.300000000000004
+18,"Usefulness of class discussions","High",1,33.300000000000004
+19,"Year in School","Freshman",0,0
+19,"Year in School","Sophmore",0,0
+19,"Year in School","Junior",0,0
+19,"Year in School","Senior",0,0
+19,"Year in School","Graduate",3,100
+19,"Year in School","Other",0,0
+20,"What requirements does this course fulfill?","Major",1,33.300000000000004
+20,"What requirements does this course fulfill?","Minor",0,0
+20,"What requirements does this course fulfill?","Gen Ed.",1,33.300000000000004
+20,"What requirements does this course fulfill?","None",1,33.300000000000004
+21,"Expected Grade","A",1,33.300000000000004
+21,"Expected Grade","B",1,33.300000000000004
+21,"Expected Grade","C",0,0
+21,"Expected Grade","D",0,0
+21,"Expected Grade","F",0,0
+21,"Expected Grade","P",0,0
+21,"Expected Grade","NP",0,0
+21,"Expected Grade","Don't Know",1,33.300000000000004
+22,"In this course, I expect to obtain a grade","Lower than my GPA",0,0
+22,"In this course, I expect to obtain a grade","Commensurate with my GPA",2,66.7
+22,"In this course, I expect to obtain a grade","Higher than my GPA",1,33.300000000000004
+23,"What was good about the course?"
+,"It's good to learn representation learning in this class. However, we only have three weeks to study this topic. The professor didn't go into very detailed things on representation learning comprehensively."
+,"Introduce many important concepts of network science via coding."
+,"It is a new topic and has a wide range of applications "
+24,"What was bad about the course?"
+,"This class did quiz weekly. I don't think it's reasonable. The professor said weekly quiz is to correct students' understanding. However, it's weired that the professor gave quiz question for the thing he didn't make clear clarification in class. I think the professor may not have a correct understanding of the meaning/definition of quiz in the university. As professor said in class, he made quiz questions as tricks. I don't think this intention is line with scientific rigor, if you made quiz questions about the things you didn't give clear explanations.  I don't think weekly quiz is necessary. Another thing is that most parts in this class before we study representation learning are overlapped with SSIE 523, the prerequisite class (required by class registration) for this SSIE 641. Professor should be aware of it and even gets to know what the contents are covered in SSIE 523. One more thing is that professor talked about different types of data, including text, image, video, etc. However, professor didn't s"
+,"Focus too computational aspects of the subject."
+,"---"
+25,"How can the course be improved?"
+,"I suggest changing the weekly quiz, since it's not very necessary. I may suggest to have paper discussion in the beginning of the class. We can discuss the related method that we talk in previous class. From the paper, students can better understand. Another thing is that professor should add more advanced topics in network science in this 600 level class. "
+,"Provide depth concepts / philosophy in network science in a clear manner."
+,"---"
+26,"What was good about the instructor?"
+,"Indeed, professor made a good exercise and assignment material. He always would like to answer students' questions. I think he is knowledgable in his study field."
+,"In terms of coding, the instructor made a lot of efforts for students to effectively learn network science concepts via coding. "
+,"He is motivated and works hard to make things be done. And also he is patient "
+27,"What was bad about the instructor?"
+,"He may not have an excellent teaching skill right now. I believe he knows well how to do presentation for his research, however, teaching class is different from doing research presentation. He may need to understand students' understanding level on the topic. Sometimes students feel frustrated to follow his lecture, since students cannot understand what he was talking about. Another thing is that it's very hard to review the class from his slides. We don't have exact textbook for this class. Thus, professor should make sure his slides full of details to help students understand the content well. "
+,"The instructor's a couple of slides contain typo. I have never seen typo in courses run by Professor and the typo made subject be difficult."
+,"---"
+28,"How can the instructor improve?"
+,"If he will get another try to teach this class next year, I think he should send a quick survey to know students' major background and research interest first. I think this will be helpful for him to prepare the class. I found actually in different exercises, we frequently use some functions. For example, calculating the degrees for each node in the network. I think professor should create a related python toolkit notes (eg. a jupyter notebook). When we do exercise, professor usually let use to read and try. However, I think he should give explanation for the codes to help students know why the code is written in that way. "
+,"It was the instructor's first experience, so I think that his course must improve if the instructor hope to improve it by just reflecting his experiences."
+,"Improve the way of delivering knowledge  "

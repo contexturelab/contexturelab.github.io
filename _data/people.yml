@@ -1,0 +1,30 @@
+# Lab Members
+# Structure: name, role, image (optional), bio (optional), website (optional), email (optional)
+
+faculty:
+  - name: "Sadamori Kojaku"
+    role: "Principal Investigator & Lab Director"
+    title: "Assistant Professor"
+    affiliation: "Binghamton University (SSIE)"
+    image: "/assets/attachments/selfy/sada-2021.jpg"
+    email: "skojaku@binghamton.edu"
+    website: "https://skojaku.github.io"
+    bio: "Prof. Kojaku develops computational machines that learn simplicity in complexity, focusing on network science, representation learning, and computational social science."
+
+# Add graduate students here
+students:
+  # - name: "Student Name"
+  #   role: "PhD Student"
+  #   image: "/assets/images/student.jpg"
+  #   email: "student@binghamton.edu"
+
+# Add postdocs here
+postdocs:
+  # - name: "Postdoc Name"
+  #   role: "Postdoctoral Researcher"
+
+# Add alumni here
+alumni:
+  # - name: "Alumni Name"
+  #   role: "Former PhD Student (2020-2024)"
+  #   current: "Now at Company/University"
