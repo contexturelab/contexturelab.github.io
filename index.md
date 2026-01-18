@@ -1,20 +1,49 @@
 ---
 layout: home
 title: Contexture Lab
+subtitle: Mapping the Fabric of Social Reality
 ---
 
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="/assets/attachments/logo-lab.jpg" alt="Contexture Lab Logo" style="max-width: 400px; width: 100%; height: auto; margin-bottom: 1rem;">
+<div style="text-align: center; margin: 2rem 0 3rem 0;">
+  <img src="/assets/attachments/logo-lab.jpg" alt="Contexture Lab Logo" style="max-width: 350px; width: 100%; height: auto;">
 </div>
 
-## About the Lab
+<div class="lab-intro" style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 3rem;">
+  <p>
+    <strong>The Contexture Lab investigates the hidden geometry of social reality.</strong>
+    We study how humans are embedded in—and directed by—fundamental structures, exploring how these invisible forces shape individual lives and collective advancement.
+  </p>
+  <p>
+    We believe that reality consists of continuous, interconnected phenomena without clear boundaries. Yet, to make sense of the world, humans impose rigid categories and partitions. While this categorization aids interpretability, it introduces bias and obscures the underlying truth. Our mission is to recover the continuity lost in this process, revealing the nuance and spectra that define how society actually functions.
+  </p>
+</div>
 
-The Contexture Lab studies how humans are embedded in and directed by fundamental structures—how these structures shape how individuals live and how collectives coordinate and advance. We believe that nature consists of continuous, interconnected phenomena without clear boundaries, but we impose categories and partitions to aid understanding. While this categorization provides interpretability, it introduces biases and obscures the underlying continuity. Our research seeks to reveal the fundamental structures that manifest as ubiquitous patterns across different domains, while recovering the continuity lost in categorization.
+<hr style="margin: 2rem 0; border: 0; border-top: 1px solid #eee;">
 
-**Universal Patterns Across Domains.** The lab uses network science to identify patterns that cut across science, technology, law, and other intellectual domains. These ubiquitous patterns—in knowledge networks, innovation structures, and social constructions—are manifestations of the fundamental structures that underpin human intellectual and social systems. By analyzing how these patterns repeat across contexts, we reveal the geometric and temporal properties that shape how humans organize knowledge, form communities, and construct categories. Network science allows us to trace the connections and structures that transcend disciplinary boundaries.
+## Lab News
 
-**Constructionism and Context.** We are all embedded in contexts—where we live, what we do, what we have, who we interact with—and these contexts fundamentally construct our social categories and experiences. Categories like "success," "genius," or "community" are not natural kinds but emerge from continuous processes. There is always a middle point, nuances, and spectra between apparent opposites. The lab uses structuralist principles to identify binary oppositions while recognizing that phenomena cannot be reduced to these oppositions.
+{% if site.data.news %}
+<ul>
+{% for item in site.data.news limit:5 %}
+  <li>
+    <strong>{{ item.date | date: "%B %d, %Y" }}</strong> — {{ item.title }}
+    {% if item.description %}
+    <br><span style="margin-left: 1em;">{{ item.description }}</span>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% else %}
+<p>No news items yet. Check back soon!</p>
+{% endif %}
 
-**Representation Learning and Continuity.** The lab develops representation learning methods to recover the continuity that exists before we impose discrete categories. When we break continuous phenomena into bounded categories, we lose subtle yet critical nuances. Representation learning brings this continuity back, capturing the continuous spectra that better characterize social phenomena and allowing us to reverse-engineer how societies construct categories.
+<hr style="margin: 2rem 0; border: 0; border-top: 1px solid #eee;">
 
-Sadamori Kojaku leads the lab at Binghamton University as an Assistant Professor in the Department of Systems Science and Industrial Engineering. [skojaku@binghamton.edu](mailto:skojaku@binghamton.edu)
+<div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #eee; font-size: 0.9rem; color: #666;">
+  <p>
+    The Contexture Lab is led by <strong>Dr. Sadamori Kojaku</strong>, Assistant Professor in the Department of Systems Science and Industrial Engineering (SSIE) at Binghamton University.
+  </p>
+  <p>
+    <a href="mailto:skojaku@binghamton.edu" style="text-decoration: none; border-bottom: 1px solid currentColor;">skojaku@binghamton.edu</a>
+  </p>
+</div>

@@ -6,6 +6,9 @@ entries:
   - title: home
     url: /
 
+  - title: research
+    url: research
+
   - title: people
     url: people
 
