@@ -2,3 +2,89 @@
 ---
 
 @import "no-style-please";
+
+// Horizontal Navigation Bar (Chrome tab style)
+.top-nav {
+  background: white;
+  border-bottom: 2px solid black;
+  padding: 0;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  .nav-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+
+    > ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 0;
+
+      > li {
+        margin: 0;
+        padding: 0;
+        flex: 0 0 auto;
+
+        a {
+          display: block;
+          padding: 0.75rem 1.5rem;
+          text-decoration: none;
+          color: black;
+          border-right: 1px solid black;
+          transition: background 0.2s;
+          white-space: nowrap;
+
+          &:hover {
+            background: #f0f0f0;
+          }
+        }
+
+        // Remove nested ul styling for now
+        ul {
+          display: none;
+        }
+      }
+
+      > li:first-child a {
+        border-left: 0;
+      }
+    }
+  }
+}
+
+// Adjust body padding to account for fixed nav
+body[a="dark"] .top-nav {
+  background: black;
+  border-bottom-color: white;
+
+  a {
+    color: white;
+    border-right-color: white;
+
+    &:hover {
+      background: #333;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body[a="auto"] .top-nav {
+    background: black;
+    border-bottom-color: white;
+
+    a {
+      color: white;
+      border-right-color: white;
+
+      &:hover {
+        background: #333;
+      }
+    }
+  }
+}

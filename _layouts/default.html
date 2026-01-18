@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: "en" }}">
-  
+
   {%- include head.html -%}
   <body a="{{ site.theme_config.appearance | default: "auto" }}">
+    <nav class="top-nav">
+      <div class="nav-container">
+        {%-include menu_item.html collection=site.data.menu.entries-%}
+      </div>
+    </nav>
     <main class="page-content" aria-label="Content">
       <div class="w">
         {{ content }}
