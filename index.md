@@ -10,7 +10,7 @@ subtitle: Mapping the Fabric of Social Reality
 
 <div class="lab-intro" style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 3rem;">
   <p>
-    We believe that reality consists of continuous, interconnected phenomena without clear boundaries. Yet, to make sense of the world, humans impose rigid categories and partitions. While this categorization aids interpretability, it introduces bias and obscures the underlying truth. Our mission is to recover the continuity lost in this process, revealing the nuance and spectra that define how society actually functions.
+    <strong>The Contexture Lab recovers the continuity lost when we force continuous reality into discrete categories.</strong> Reality consists of interconnected phenomena without clear boundaries, yet humans impose rigid partitions to make sense of the world. While categorization aids interpretability, it introduces bias and obscures truth. We reveal the nuance and spectra that categorical thinking erases.
   </p>
 </div>
 
