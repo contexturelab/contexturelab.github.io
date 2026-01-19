@@ -20,7 +20,7 @@ subtitle: Mapping the Fabric of Social Reality
 
 {% if site.data.news %}
 <ul>
-{% for item in site.data.news limit:5 %}
+{% for item in site.data.news %}
   <li>
     <strong>{{ item.date | date: "%B %d, %Y" }}</strong> — {{ item.title }}
     {% if item.description %}
