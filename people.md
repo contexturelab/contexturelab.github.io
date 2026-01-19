@@ -14,7 +14,7 @@ title: People
 <div style="display: flex; gap: 1.5rem; margin-bottom: 2rem; align-items: flex-start;">
   {% if person.image %}
   <div style="flex-shrink: 0;">
-    <img src="{{ person.image }}" alt="{{ person.name }}" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px;">
+    <img src="{{ person.image }}" alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px;">
   </div>
   {% endif %}
   <div style="flex-grow: 1;">
