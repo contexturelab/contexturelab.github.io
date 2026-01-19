@@ -13,7 +13,7 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 
 {% for talk in site.data.slides.keynote_talks %}
 **{{ talk.year }}**
-- **{{ talk.title }}**, {{ talk.venue }}, {{ talk.location }}, {{ talk.date }} [[Slides]]({{ talk.slides }})
+- **{{ talk.title }}**, {{ talk.venue }}, {{ talk.location }}, {{ talk.date }}{% if talk.slides and talk.slides != "#" %} [[Slides]]({{ talk.slides }}){% endif %}
 {% endfor %}
 
 {% assign invited_sorted = site.data.slides.invited_talks | sort: "year" | reverse %}
@@ -21,7 +21,7 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 {% for year_group in invited_by_year %}
 **{{ year_group.name }}**
 {% for talk in year_group.items %}
-- **"{{ talk.title }}"**, {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}, {{ talk.date }} [[Slides]]({{ talk.slides }})
+- **"{{ talk.title }}"**, {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}, {{ talk.date }}{% if talk.slides and talk.slides != "#" %} [[Slides]]({{ talk.slides }}){% endif %}
 {% endfor %}
 {% endfor %}
 
@@ -34,7 +34,7 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 {% for year_group in oral_by_year %}
 **{{ year_group.name }}**
 {% for pres in year_group.items %}
-- **"{{ pres.title }}"** ({{ pres.authors }}) — {{ pres.venue }}{% if pres.location %}, {{ pres.location }}{% endif %}, {{ pres.date }} [[Slides]]({{ pres.slides }}){% if pres.award %} **({{ pres.award }})**{% endif %}
+- **"{{ pres.title }}"** ({{ pres.authors }}) — {{ pres.venue }}{% if pres.location %}, {{ pres.location }}{% endif %}, {{ pres.date }}{% if pres.slides and pres.slides != "#" %} [[Slides]]({{ pres.slides }}){% endif %}{% if pres.award %} **({{ pres.award }})**{% endif %}
 {% endfor %}
 {% endfor %}
 
@@ -47,7 +47,7 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 {% for year_group in poster_by_year %}
 **{{ year_group.name }}**
 {% for poster in year_group.items %}
-- **"{{ poster.title }}"** ({{ poster.authors }}) — {{ poster.venue }}{% if poster.location %}, {{ poster.location }}{% endif %}, {{ poster.date }} [[PDF]]({{ poster.pdf }})
+- **"{{ poster.title }}"** ({{ poster.authors }}) — {{ poster.venue }}{% if poster.location %}, {{ poster.location }}{% endif %}, {{ poster.date }}{% if poster.pdf and poster.pdf != "#" %} [[PDF]]({{ poster.pdf }}){% endif %}
 {% endfor %}
 {% endfor %}
 
@@ -56,32 +56,8 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 ## Teaching Materials
 
 {% for course in site.data.slides.teaching %}
-- **{{ course.course }}** ({{ course.terms }}) — {{ course.institution }} [[Materials]]({{ course.materials }})
+- **{{ course.course }}** ({{ course.terms }}) — {{ course.institution }}{% if course.materials and course.materials != "#" %} [[Materials]]({{ course.materials }}){% endif %}
 {% endfor %}
-
----
-
-## Honors & Awards
-
-{% for award in site.data.slides.awards %}
-- **{{ award.title }}**, {{ award.venue }}, {{ award.year }}{% if award.note %} ({{ award.note }}){% endif %}
-{% endfor %}
-
----
-
-## Professional Service
-
-**Workshop Organization**
-{% for workshop in site.data.slides.service.workshops %}
-- {{ workshop.role }}, {{ workshop.name }} ({{ workshop.event }})
-{% endfor %}
-
-**Program Committee**
-{% for pc in site.data.slides.service.program_committee %}
-- {{ pc.organization }}: {{ pc.years }}
-{% endfor %}
-
----
 
 ## Request Slides
 
