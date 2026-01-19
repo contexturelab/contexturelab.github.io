@@ -16,7 +16,8 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 - **{{ talk.title }}**, {{ talk.venue }}, {{ talk.location }}, {{ talk.date }} [[Slides]]({{ talk.slides }})
 {% endfor %}
 
-{% assign invited_by_year = site.data.slides.invited_talks | group_by: "year" | reverse %}
+{% assign invited_sorted = site.data.slides.invited_talks | sort: "year" | reverse %}
+{% assign invited_by_year = invited_sorted | group_by: "year" %}
 {% for year_group in invited_by_year %}
 **{{ year_group.name }}**
 {% for talk in year_group.items %}
@@ -28,7 +29,8 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 
 ## Oral Presentations
 
-{% assign oral_by_year = site.data.slides.oral_presentations | group_by: "year" | reverse %}
+{% assign oral_sorted = site.data.slides.oral_presentations | sort: "year" | reverse %}
+{% assign oral_by_year = oral_sorted | group_by: "year" %}
 {% for year_group in oral_by_year %}
 **{{ year_group.name }}**
 {% for pres in year_group.items %}
@@ -40,7 +42,8 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 
 ## Poster Presentations
 
-{% assign poster_by_year = site.data.slides.poster_presentations | group_by: "year" | reverse %}
+{% assign poster_sorted = site.data.slides.poster_presentations | sort: "year" | reverse %}
+{% assign poster_by_year = poster_sorted | group_by: "year" %}
 {% for year_group in poster_by_year %}
 **{{ year_group.name }}**
 {% for poster in year_group.items %}
