@@ -11,10 +11,10 @@ keynote_talks:
 
 invited_talks:
   - year: 2026
-    title: "Invited Member: Modeling Higher-Order Structures in Complex Networks and Elucidating Influence Propagation and Robustness Between Remote Nodes"
-    venue: "Research Project (PI: Yasuko Yamano)"
+    title: "つながりを微分する  —— ベクトル表現が捉える、連続体としてのネットワーク"
+    venue: "Modeling Higher-Order Structures in Complex Networks and Elucidating Influence Propagation and Robustness Between Remote Nodes. Research Project (PI: Yasuko Yamano)"
     date: "2026"
-    slides: "#"
+    slides: "https://github.com/skojaku/talks-networks-space/blob/main/slides/japan-2025-seminar.key"
 
   - year: 2024
     title: "Neural embeddings unveil simplicity in complex systems"
@@ -22,6 +22,12 @@ invited_talks:
     location: "Minneapolis, MN, USA"
     date: "March 4-8, 2024"
     slides: "#"
+
+  - year: 2024
+    title: "Machine learns simplicity in complexity"
+    venue: "Invited Seminar"
+    date: "July 2, 2024"
+    slides: "https://drive.google.com/file/d/12tc5GaWkIXb_252V7krQld9KWfN6GmYd/view?usp=sharing"
 
   - year: 2022
     title: "Distilling rich but crude scholarly data using representation learning"
