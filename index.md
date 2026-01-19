@@ -24,7 +24,7 @@ subtitle: Mapping the Fabric of Social Reality
   <li>
     <strong>{{ item.date | date: "%B %d, %Y" }}</strong> — {{ item.title }}
     {% if item.description %}
-    <br><span style="margin-left: 1em;">{{ item.description }}</span>
+    <br><span style="margin-left: 1em;">{{ item.description | markdownify | remove: '<p>' | remove: '</p>' }}</span>
     {% endif %}
   </li>
 {% endfor %}
@@ -37,7 +37,7 @@ subtitle: Mapping the Fabric of Social Reality
 
 <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #eee; font-size: 0.9rem; color: #666;">
   <p>
-    The Contexture Lab is led by <strong>Dr. Sadamori Kojaku</strong>, Assistant Professor in the Department of Systems Science and Industrial Engineering (SSIE) at Binghamton University.
+    The Contexture Lab is led by <a href="https://skojaku.github.io/">Sadamori Kojaku</a>, Assistant Professor in the School of Systems Science and Industrial Engineering (SSIE) at Binghamton University.
   </p>
   <p>
     <a href="mailto:skojaku@binghamton.edu" style="text-decoration: none; border-bottom: 1px solid currentColor;">skojaku@binghamton.edu</a>
