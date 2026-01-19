@@ -24,8 +24,8 @@ invited_talks:
     slides: "#"
 
   - year: 2024
-    title: "CoCo Seminar Talk"
-    venue: "Center for Collective Dynamics of Complex Systems (CoCo), Binghamton University"
+    title: "Unsupervised embedding of trajectories captures the latent structure of scientific migration"
+    venue: "CoCo Seminar, Center for Collective Dynamics of Complex Systems, Binghamton University"
     location: "Binghamton, NY, USA (Hybrid)"
     date: "January 24, 2024"
     slides: "https://drive.google.com/file/d/1RkD-2ofVcD9M_Mft5KywoQnGz5m4ReB-/view?usp=sharing"
