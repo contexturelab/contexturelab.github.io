@@ -1,6 +1,10 @@
 # Lab News
 # Add news items here in reverse chronological order (newest first)
 
+- date: 2025-10-01
+  title: "VizTrust highlighted in Communications of the ACM 🎉"
+  description: "Xin Wang's VizTrust project was featured in Communications of the ACM. It's truly an honor!"
+
 - date: 2025-09-23
   title: "Invited to speak at CompleNet 2026"
   description: "https://x.com/CompleNet/status/1970442276901134776"
@@ -8,6 +12,18 @@
 - date: 2025-06-01
   title: "Lab presents 3 papers at NetSci 2025"
   description: "Xin Wang and Xuanchi Li presented their work at NetSci 2025 in Maastricht, Netherlands on implicit degree bias in link prediction and near-linear time algorithms for configuration models."
+
+- date: 2025-05-01
+  title: "Link prediction paper accepted at ICML 2025"
+  description: "Xin Wang's paper on implicit degree bias in link prediction was accepted at ICML 2025 after a tough long run (Acceptance rate: 26.9%)."
+
+- date: 2025-05-01
+  title: "VizTrust featured on BingUNews"
+  description: "Xin Wang's VizTrust project was featured on Binghamton University News: https://www.binghamton.edu/news/story/5570/how-much-do-we-trust-chatbots-new-tool-from-binghamton-university-makes-it-easier-to-gauge"
+
+- date: 2025-05-01
+  title: "VizTrust receives research grant"
+  description: "Xin Wang's VizTrust project successfully landed Multidisciplinary Summer Research Grant ($3,012.58) from the Center for Cognitive Applications."
 
 - date: 2025-04-01
   title: "Lab presents at CompleNet 2025"
