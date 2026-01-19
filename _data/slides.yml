@@ -183,7 +183,7 @@ oral_presentations:
     venue: "NetSci"
     location: "Virtual"
     date: "July 5-10, 2021"
-    slides: "#"
+    slides: "https://drive.google.com/file/d/1wSl9ZAyvuOLflbQfVCAfSqsSBHpF9LU7/view?usp=drive_link"
 
   - year: 2020
     title: "The landscape of the COVID-19 research: A neural embedding approach"
