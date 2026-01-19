@@ -63,7 +63,7 @@ oral_presentations:
     authors: "Yoshiaki Fujita, Akshay Gangadhar, Sadamori Kojaku"
     venue: "NERCCS"
     date: "April 2025"
-    slides: "#"
+    slides: "https://drive.google.com/file/d/1G7ducmkgBF8vRwVdBZoGYqtf-ZcV17Ta/view?usp=sharing"
 
   - year: 2025
     title: "On the high-order cumulative advantage in citation and collaboration networks in science"
