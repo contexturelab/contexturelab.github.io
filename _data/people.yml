@@ -15,19 +15,23 @@ faculty:
 students:
   - name: "Xin Wang (Vision)"
     role: "PhD Student"
+    image: "/assets/headshots/xin.jpg"
     bio: "HCI Researcher and Data Scientist with interests in trust in AI systems and conversational user interfaces."
     website: "https://xin-wang-kr.github.io"
 
   - name: "Xuanchi Li"
     role: "PhD Student"
+    image: "/assets/headshots/xuanchi.jpg"
     bio: "Research interests in complexity theory, network science, and graph machine learning. Focuses on exploring and recovering connections in data."
 
   - name: "Luke Netto II"
     role: "PhD Student"
+    image: "/assets/headshots/luke.jpg"
     bio: "Systems Science PhD student with background in telecommunications and data analytics. Principal Customer Architect at Elastic."
 
   - name: "Chand Sahil Mansuri"
     role: "PhD Student"
+    image: "/assets/headshots/chand.jpg"
     bio: "Expertise in Data Science, Machine Learning, and Natural Language Processing. Research spans healthcare analytics, energy forecasting, and AI applications."
 
 # Add postdocs here
