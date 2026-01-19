@@ -1,0 +1,303 @@
+# Slides and Presentations Data
+# Structure organized by category
+
+keynote_talks:
+  - year: 2026
+    title: "Keynote Speaker"
+    venue: "CompleNet 2026"
+    location: "Zaragoza, Spain"
+    date: "May 4-8, 2026"
+    slides: "#"
+
+invited_talks:
+  - year: 2024
+    title: "Neural embeddings unveil simplicity in complex systems"
+    venue: "American Physical Society March Meeting"
+    location: "Minneapolis, MN"
+    date: "March 4-8, 2024"
+    slides: "#"
+
+  - year: 2022
+    title: "Distilling rich but crude scholarly data using representation learning"
+    venue: "IUNI Lunch Colloquium"
+    location: "Indiana University"
+    date: "October 28, 2022"
+    slides: "#"
+
+  - year: 2022
+    title: "Residual2Vec: Debiasing graph embedding with random graphs"
+    venue: "NetSci 2022"
+    location: "Shanghai, China"
+    date: "July 21, 2022"
+    slides: "#"
+
+  - year: 2021
+    title: "The effectiveness of backward contact tracing in networks"
+    venue: "SUNY Buffalo"
+    date: "June 4, 2021"
+    slides: "#"
+
+  - year: 2019
+    title: "Algorithms for detecting network cores and their applications"
+    venue: "Institute of Statistical Mathematics"
+    location: "Japan"
+    date: "August 28-30, 2019"
+    slides: "#"
+
+conference_presentations:
+  - year: 2025
+    title: "On the high-order cumulative advantage in citation and collaboration networks in science"
+    authors: "Y. Fujita, A. Gangadhar"
+    venues:
+      - name: "NERCCS"
+        date: "April 2025"
+        type: "Oral"
+      - name: "NetSci, Maastricht"
+        date: "June 2025"
+        type: "Oral & Poster"
+    slides: "#"
+
+  - year: 2025
+    title: "Network community detection via neural embeddings"
+    authors: "F. Radicchi, Y-Y. Ahn, S. Fortunato"
+    venues:
+      - name: "CompleNet, Brazil"
+        date: "April 2025"
+        type: "Oral"
+    slides: "#"
+
+  - year: 2025
+    title: "Implicit degree bias in the link prediction task"
+    authors: "R. Aiyappa, X. Wang, M. Kim, et al."
+    venues:
+      - name: "CompleNet"
+        date: "April 2025"
+        type: "Oral"
+      - name: "NetSci, Maastricht"
+        date: "June 2025"
+        type: "Oral"
+      - name: "ICML, Vienna"
+        date: "July 2025"
+        type: "Poster"
+    slides: "#"
+    poster: "#"
+
+  - year: 2025
+    title: "Near-linear time algorithm for the configuration models for networks"
+    authors: "X. Li, X. Wang"
+    venues:
+      - name: "CompleNet, Brazil"
+        date: "April 2025"
+        type: "Oral"
+      - name: "NetSci, Maastricht"
+        date: "June 2025"
+        type: "Oral"
+    slides: "#"
+
+  - year: 2024
+    title: "Uncovering the universal dynamics of citation systems"
+    authors: "R. Mahari, S. Lera, E. Moro, et al."
+    venues:
+      - name: "NERCCS, Clarkson, NY"
+        date: "March 20-22, 2024"
+        type: "Oral"
+    slides: "#"
+
+  - year: 2024
+    title: "Analyzing Patient Reviews on Google Map Hospital Profiles"
+    authors: "X. Wang"
+    venues:
+      - name: "NERCCS"
+        date: "March 20-22, 2024"
+        type: "Poster"
+    poster: "#"
+
+  - year: 2023
+    title: "Uncovering the universal dynamics of citation systems"
+    authors: "R. Mahari, S. Lera, E. Moro, et al."
+    venues:
+      - name: "NetSci, Vienna"
+        date: "July 12-14, 2023"
+        type: "Oral"
+      - name: "ICSSI, Chicago"
+        date: "June 26-29, 2023"
+        type: "Oral"
+    slides: "#"
+
+  - year: 2023
+    title: "Network community detection via neural embeddings"
+    authors: "F. Radicchi, Y-Y. Ahn, S. Fortunato"
+    venues:
+      - name: "NetSci, Vienna"
+        date: "July 12-14, 2023"
+        type: "Oral"
+    slides: "#"
+
+  - year: 2022
+    title: "Mapping Scientific Foraging"
+    authors: "C. Boothby, F. N. Silva, A. Varga, et al."
+    venues:
+      - name: "ICSSI, Washington D.C."
+        date: "June 6-9, 2022"
+        type: "Oral"
+    slides: "#"
+
+  - year: 2022
+    title: "DisamBERT: author name disambiguation with BERT"
+    authors: "X. Yan, J. Yoon, F. N. Silva, et al."
+    venues:
+      - name: "ICSSI, Washington D.C."
+        date: "June 6-9, 2022"
+        type: "Oral"
+    slides: "#"
+
+  - year: 2021
+    title: "The effectiveness of backward contact tracing in networks"
+    authors: "L. Hébert-Dufresne, E. Mones, S. Lehmann, Y-Y. Ahn"
+    venues:
+      - name: "NetSci, Virtual"
+        date: "July 5-10, 2021"
+        type: "Oral"
+    slides: "#"
+
+  - year: 2021
+    title: "Residual2Vec: A null model approach for graph embedding"
+    authors: "J. Yoon, Y-Y. Ahn"
+    venues:
+      - name: "NetSci, Virtual"
+        date: "July 5-10, 2021"
+        type: "Oral"
+    slides: "#"
+
+  - year: 2020
+    title: "Detecting citation cartels in journal networks"
+    authors: "G. Livan, N. Masuda"
+    venues:
+      - name: "NetSci, Rome, Italy"
+        date: "September 17-25, 2020"
+        type: "Oral"
+    slides: "#"
+
+  - year: 2019
+    title: "Structural changes in the interbank market across the financial crisis"
+    authors: "G. Cimini, G. Caldarelli, N. Masuda"
+    venues:
+      - name: "NetSci, Vermont, U.S."
+        date: "May 26-31, 2019"
+        type: "Oral"
+    slides: "#"
+
+  - year: 2016
+    title: "Finding multiple core-periphery structure with random walks"
+    venues:
+      - name: "5th International Workshop on Complex Networks, Milan"
+        date: "November 30-December 2, 2016"
+        type: "Oral"
+    slides: "#"
+    award: "Best Contribution on Financial Networks Award"
+
+posters:
+  - year: 2024
+    title: "Self-Supervised Modularity Maximization using graph embeddings"
+    authors: "G. Gandhi, Y-Y. Ahn"
+    venue: "NetSci, Quebec, Canada"
+    date: "June 16-21, 2024"
+    pdf: "#"
+
+  - year: 2024
+    title: "User Trust Modeling in Conversational UI Based on Word Embedding Bias"
+    authors: "X. Wang"
+    venue: "ACM Conversational User Interfaces"
+    date: "July 8-10, 2024"
+    pdf: "#"
+
+  - year: 2023
+    title: "A biased contrastive learning debiases graph neural networks"
+    authors: "A. Tiwari, Y-Y. Ahn"
+    venue: "NetSci, Vienna"
+    date: "July 12-14, 2023"
+    pdf: "#"
+
+  - year: 2023
+    title: "Understanding the landscape of COVID-19 research by using neural embedding"
+    venue: "ICSSI, Chicago"
+    date: "June 26-29, 2023"
+    pdf: "#"
+
+  - year: 2023
+    title: "Quantifying disruptiveness using a neural embedding method"
+    authors: "M. Kim, Y-Y. Ahn"
+    venue: "ICSSI, Chicago"
+    date: "June 26-29, 2023"
+    pdf: "#"
+
+  - year: 2019
+    title: "Constructing networks from correlation matrices"
+    venue: "Threshold Networks, Nottingham, UK"
+    date: "July 22-24, 2019"
+    pdf: "#"
+
+  - year: 2018
+    title: "A generalised significance test for individual communities in networks"
+    venue: "NetSci, Paris"
+    date: "June 11-15, 2018"
+    pdf: "#"
+
+  - year: 2017
+    title: "Multi-scale organisation of core-periphery structure in networks"
+    venue: "Latin American Conference on Complex Networks, Puebla, Mexico"
+    date: "September 25-29, 2017"
+    pdf: "#"
+
+teaching:
+  - course: "SSIE 641: Advanced Topics in Network Science"
+    terms: "Fall 2023, 2024"
+    institution: "Binghamton University"
+    materials: "#"
+
+  - course: "SSIE 419/519: Applied Soft Computing"
+    terms: "Spring 2024, 2025"
+    institution: "Binghamton University"
+    materials: "#"
+
+  - course: "BL-INFO-I590: Data Visualization"
+    terms: "Fall 2023"
+    institution: "Indiana University"
+    materials: "#"
+
+awards:
+  - title: "Best Presentation Award"
+    venue: "CompleNet"
+    year: 2025
+
+  - title: "Art of Science Competition Finalist, Judges Choice"
+    venue: "Binghamton University"
+    year: 2024
+    note: "14/85 entries"
+
+  - title: "Best Contribution on Financial Networks Award"
+    venue: "NetSci-X"
+    year: 2017
+    note: "1/58 presenters"
+
+  - title: "Dean Award"
+    venue: "Graduate School of Information Science and Technology, Hokkaido University"
+    year: 2015
+
+  - title: "Best Student Award"
+    venue: "The World Congress on Engineering"
+    year: 2013
+
+service:
+  workshops:
+    - role: "Chair"
+      name: "Rep4CS: Representation learning for complex systems"
+      event: "Conference on Complex Systems 2024, Exeter, UK"
+
+    - role: "Organizer"
+      name: "NetSci-X 2020"
+      event: "Tokyo, Japan"
+
+  program_committee:
+    - organization: "International School and Conference on Network Science (NetSci)"
+      years: "2019-2023"
