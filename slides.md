@@ -20,7 +20,8 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 {% assign invited_by_year = invited_sorted | group_by: "year" %}
 {% for year_group in invited_by_year %}
 **{{ year_group.name }}**
-{% for talk in year_group.items %}
+{% assign talks_sorted = year_group.items | sort: "title" %}
+{% for talk in talks_sorted %}
 - **"{{ talk.title }}"**, {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}, {{ talk.date }}{% if talk.slides and talk.slides != "#" %} [[Slides]]({{ talk.slides }}){% endif %}
 {% endfor %}
 {% endfor %}
@@ -33,7 +34,8 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 {% assign oral_by_year = oral_sorted | group_by: "year" %}
 {% for year_group in oral_by_year %}
 **{{ year_group.name }}**
-{% for pres in year_group.items %}
+{% assign pres_sorted = year_group.items | sort: "title" %}
+{% for pres in pres_sorted %}
 - **"{{ pres.title }}"** ({{ pres.authors }}) — {{ pres.venue }}{% if pres.location %}, {{ pres.location }}{% endif %}, {{ pres.date }}{% if pres.slides and pres.slides != "#" %} [[Slides]]({{ pres.slides }}){% endif %}{% if pres.award %} **({{ pres.award }})**{% endif %}
 {% endfor %}
 {% endfor %}
@@ -46,7 +48,8 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 {% assign poster_by_year = poster_sorted | group_by: "year" %}
 {% for year_group in poster_by_year %}
 **{{ year_group.name }}**
-{% for poster in year_group.items %}
+{% assign posters_sorted = year_group.items | sort: "title" %}
+{% for poster in posters_sorted %}
 - **"{{ poster.title }}"** ({{ poster.authors }}) — {{ poster.venue }}{% if poster.location %}, {{ poster.location }}{% endif %}, {{ poster.date }}{% if poster.pdf and poster.pdf != "#" %} [[PDF]]({{ poster.pdf }}){% endif %}
 {% endfor %}
 {% endfor %}
