@@ -62,22 +62,22 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 ### 2025
 
 #### **"On the high-order cumulative advantage in citation and collaboration networks in science"**
-*NetSci, Maastricht, NERCCS, April 2025*
+*NERCCS, April 2025 (Oral) | NetSci, Maastricht, Netherlands, June 2025 (Oral & Poster)*
 - With Yoshiaki Fujita and Akshay Gangadhar
 - [PDF Slides](#)
 
 #### **"Network community detection via neural embeddings"**
-*CompleNet, Casa José de Alencar, Brazil, April 2025*
+*CompleNet, Casa José de Alencar, Brazil, April 2025 (Oral)*
 - With Filippo Radicchi, Yong-Yeol Ahn, and Santo Fortunato
 - [PDF Slides](#)
 
 #### **"Implicit degree bias in the link prediction task"**
-*Forty-second International Conference on Machine Learning (ICML), Vienna, Austria, July 21-27, 2025*
+*CompleNet, Brazil, April 2025 (Oral) | NetSci, Maastricht, Netherlands, June 2025 (Oral) | ICML, Vienna, Austria, July 21-27, 2025 (Poster)*
 - With Rachith Aiyappa, Xin Wang, Munjung Kim, Ozgur Can Seckin, Jisung Yoon, and Yong-Yeol Ahn
 - [PDF Slides](#) | [Poster](#)
 
 #### **"Near-linear time algorithm for the configuration models for networks"**
-*CompleNet, Casa José de Alencar, Brazil, April 2025*
+*CompleNet, Brazil, April 2025 (Oral) | NetSci, Maastricht, Netherlands, June 2025 (Oral)*
 - With Xuanchi Li and Xin Wang
 - [PDF Slides](#)
 
@@ -180,8 +180,8 @@ Graduate course on data visualization principles and techniques
 
 ### 2025
 
-- **"Implicit degree bias in the link prediction task"** — ICML, Vienna, Austria, July 21-27, 2025. With Rachith Aiyappa, Xin Wang, Munjung Kim, et al. [PDF](#)
-- **"On the high-order cumulative advantage in citation and collaboration networks in science"** — NetSci, Maastricht, June 2025. With Yoshiaki Fujita and Akshay Gangadhar. [PDF](#)
+- **"Implicit degree bias in the link prediction task"** — See Conference Presentations above (presented at ICML)
+- **"On the high-order cumulative advantage in citation and collaboration networks in science"** — See Conference Presentations above (presented at NetSci)
 
 ### 2024
 
