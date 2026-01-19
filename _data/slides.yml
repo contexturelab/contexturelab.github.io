@@ -177,6 +177,14 @@ oral_presentations:
     slides: "#"
 
   - year: 2021
+    title: "Residual2Vec: Debiasing graph embedding with random graphs"
+    authors: "Sadamori Kojaku, Jisung Yoon, Isabel Constantino, Yong-Yeol Ahn"
+    venue: "NeurIPS"
+    location: "Virtual"
+    date: "2021"
+    slides: "https://drive.google.com/file/d/1cqk9RtUw5Qlmz5gvpIKtF12b9NJiFgV4/view?usp=drive_link"
+
+  - year: 2021
     title: "Residual2Vec: A null model approach for graph embedding"
     authors: "Sadamori Kojaku, Jisung Yoon, Yong-Yeol Ahn"
     venue: "NetSci"
