@@ -10,6 +10,12 @@ keynote_talks:
     slides: "#"
 
 invited_talks:
+  - year: 2026
+    title: "Invited Member: Modeling Higher-Order Structures in Complex Networks and Elucidating Influence Propagation and Robustness Between Remote Nodes"
+    venue: "Research Project (PI: Yasuko Yamano)"
+    date: "2026"
+    slides: "#"
+
   - year: 2024
     title: "Neural embeddings unveil simplicity in complex systems"
     venue: "American Physical Society March Meeting"
