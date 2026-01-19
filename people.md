@@ -88,7 +88,7 @@ title: People
 
 ## Join Us
 
-We are actively seeking motivated students and researchers to join **Contexture Lab**. If you're interested in:
+If you're interested in collaborating on research related to:
 
 - Network science and representation learning
 - Computational social science
@@ -97,11 +97,7 @@ We are actively seeking motivated students and researchers to join **Contexture 
 
 Please reach out to Prof. Kojaku at [skojaku@binghamton.edu](mailto:skojaku@binghamton.edu).
 
-### Opportunities
-
-- **Graduate Students**: PhD positions available in Systems Science and Industrial Engineering at Binghamton University
-- **Postdocs**: Opportunities for postdoctoral researchers with backgrounds in computer science, physics, or social science
-- **Undergraduate Research**: Undergraduate students at Binghamton interested in research projects
+**Note**: We currently do not have funded positions available. Prospective graduate students should apply through the [Binghamton University SSIE graduate program](https://www.binghamton.edu/ssie/) and mention interest in working with our lab. Undergraduate students at Binghamton interested in research projects are welcome to inquire about volunteer research opportunities.
 
 ---
 
