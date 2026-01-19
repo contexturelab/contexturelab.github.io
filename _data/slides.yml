@@ -87,7 +87,7 @@ oral_presentations:
     venue: "CompleNet"
     location: "Brazil"
     date: "April 2025"
-    slides: "#"
+    slides: "https://drive.google.com/file/d/1u7vwZXRzzs2SfyGi6tEs2QpsSsBpPa5R/view?usp=sharing"
 
   - year: 2025
     title: "Implicit degree bias in the link prediction task"
