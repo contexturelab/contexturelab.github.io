@@ -10,10 +10,6 @@ subtitle: Mapping the Fabric of Social Reality
 
 <div class="lab-intro" style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 3rem;">
   <p>
-    <strong>The Contexture Lab investigates the hidden geometry of social reality.</strong>
-    We study how humans are embedded in—and directed by—fundamental structures, exploring how these invisible forces shape individual lives and collective advancement.
-  </p>
-  <p>
     We believe that reality consists of continuous, interconnected phenomena without clear boundaries. Yet, to make sense of the world, humans impose rigid categories and partitions. While this categorization aids interpretability, it introduces bias and obscures the underlying truth. Our mission is to recover the continuity lost in this process, revealing the nuance and spectra that define how society actually functions.
   </p>
 </div>
