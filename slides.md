@@ -9,134 +9,230 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 
 ---
 
-## Recent Talks
+## Keynote Talks
 
 ### 2026
 
-#### **"Mapping the Fabric of Social Reality: An Introduction to Contexture Lab"**
-*Lab Launch Seminar, Binghamton University, January 2026*
+#### **Keynote Speaker**
+*17th International Conference on Complex Networks (CompleNet 2026), Zaragoza, Spain, May 4-8, 2026*
 - [PDF Slides](#) (Coming soon)
-- **Abstract**: Introducing the philosophy and research agenda of Contexture Lab
 
 ---
+
+## Invited Talks
+
+### 2024
+
+#### **"Neural embeddings unveil simplicity in complex systems"**
+*American Physical Society March Meeting, Minneapolis, MN, USA, March 4-8, 2024*
+- [PDF Slides](#)
+
+---
+
+### 2022
+
+#### **"Distilling rich but crude scholarly data using representation learning"**
+*IUNI Lunch Colloquium: Science of Science and Networks, Indiana, USA, October 28, 2022*
+- [PDF Slides](#)
+
+#### **"Residual2Vec: Debiasing graph embedding with random graphs"**
+*Network Inequality, International School and Conference on Network Science (NetSci) 2022, Shanghai, China, July 21, 2022*
+- [PDF Slides](#)
+
+---
+
+### 2021
+
+#### **"The effectiveness of backward contact tracing in networks"**
+*The State University of New York at Buffalo, June 4, 2021*
+- [PDF Slides](#)
+
+---
+
+### 2019
+
+#### **"Algorithms for detecting network cores and their applications"**
+*Network Science Seminar, Institute of Statistical Mathematics, Japan, August 28-30, 2019*
+- [PDF Slides](#)
+
+---
+
+## Selected Conference Presentations
 
 ### 2025
 
-#### **"Beyond Binaries: Continuous Representations of Social Categories"**
-*NetSci 2025*
-- [PDF Slides](#) (Coming soon)
-- **Abstract**: How network embeddings reveal the continuous spectrum underlying discrete social labels
+#### **"On the high-order cumulative advantage in citation and collaboration networks in science"**
+*NetSci, Maastricht, NERCCS, April 2025*
+- With Yoshiaki Fujita and Akshay Gangadhar
+- [PDF Slides](#)
 
-#### **"The Geometry of Scientific Innovation"**
-*IC2S2 2025*
-- [PDF Slides](#) (Coming soon)
-- **Abstract**: Using non-Euclidean geometry to map the invisible value in scientific knowledge
+#### **"Network community detection via neural embeddings"**
+*CompleNet, Casa José de Alencar, Brazil, April 2025*
+- With Filippo Radicchi, Yong-Yeol Ahn, and Santo Fortunato
+- [PDF Slides](#)
 
-#### **"From Mono to Koto: A Philosophical Framework for Network Science"**
-*ASONAM 2025*
-- [PDF Slides](#) (Coming soon)
-- **Abstract**: Japanese philosophy meets computational social science
+#### **"Implicit degree bias in the link prediction task"**
+*Forty-second International Conference on Machine Learning (ICML), Vienna, Austria, July 21-27, 2025*
+- With Rachith Aiyappa, Xin Wang, Munjung Kim, Ozgur Can Seckin, Jisung Yoon, and Yong-Yeol Ahn
+- [PDF Slides](#) | [Poster](#)
+
+#### **"Near-linear time algorithm for the configuration models for networks"**
+*CompleNet, Casa José de Alencar, Brazil, April 2025*
+- With Xuanchi Li and Xin Wang
+- [PDF Slides](#)
 
 ---
 
-### Earlier Talks
+### 2024
 
-#### **"Hyperbolic Embeddings for Hierarchical Networks"**
-*Network Science Seminar Series, 2024*
-- [PDF Slides](#)
-- [Video Recording](#)
-
-#### **"Core-Periphery Structure Detection in Large Networks"**
-*Complex Networks Conference, 2024*
+#### **"Uncovering the universal dynamics of citation systems: From science of science to law of law and patterns of patents"**
+*NERCCS, Clarkson, NY, USA, March 20-22, 2024*
+- With Robert Mahari, Sandro Lera, Esteban Moro, Alex Pentland, and Yong-Yeol Ahn
 - [PDF Slides](#)
 
-#### **"Representation Learning for Social Networks"**
-*KDD Tutorial, 2023*
-- [PDF Slides](#)
-- [Video Recording](#)
+#### **"Analyzing Patient Reviews on Google Map Hospital Profiles through Neural Embedding and Network Modeling"**
+*NERCCS, Clarkson, NY, USA, March 20-22, 2024*
+- With Xin Wang
+- [Poster](#)
 
 ---
 
-## Tutorials
+### 2023
 
-### **Network Embedding Workshop**
-Complete tutorial on network representation learning
-- [Part 1: Introduction to Graph Embeddings](#)
-- [Part 2: Hyperbolic vs. Euclidean Spaces](#)
-- [Part 3: Applications to Social Networks](#)
-- [Jupyter Notebooks](https://github.com/skojaku/network-embedding-tutorial)
+#### **"Uncovering the universal dynamics of citation systems"**
+*International School and Conference on Network Science (NetSci), Vienna, Austria, July 12-14, 2023*
+- With Robert Mahari, Sandro Lera, Esteban Moro, Alex Pentland, and Yong-Yeol Ahn
+- [PDF Slides](#)
 
-### **Science of Science Methods**
-Tutorial on computational methods for studying science
-- [Slides](#)
-- [Code Examples](https://github.com/skojaku/science-of-science-tutorial)
+#### **"Network community detection via neural embeddings"**
+*International School and Conference on Network Science (NetSci), Vienna, Austria, July 12-14, 2023*
+- With Filippo Radicchi, Yong-Yeol Ahn, and Santo Fortunato
+- [PDF Slides](#)
+
+#### **"Mapping Scientific Foraging"**
+*ICSSI, Washington D.C., USA, June 6-9, 2022*
+- With Clara Boothby, Filipi Nascimento Silva, Attila Varga, et al.
+- [PDF Slides](#)
+
+#### **"DisamBERT: author name disambiguation with BERT"**
+*ICSSI, Washington D.C., USA, June 6-9, 2022*
+- With Xiaoran Yan, Jisung Yoon, Filipi N. Silva, Vincent Lariviere, and Yong-Yeol Ahn
+- [PDF Slides](#)
+
+---
+
+### 2021
+
+#### **"The effectiveness of backward contact tracing in networks"**
+*International School and Conference on Network Science (NetSci), Virtual, July 5-10, 2021*
+- With Laurent Hébert-Dufresne, Enys Mones, Sune Lehmann, and Yong-Yeol Ahn
+- [PDF Slides](#)
+
+#### **"Residual2Vec: A null model approach for graph embedding"**
+*International School and Conference on Network Science (NetSci), Virtual, July 5-10, 2021*
+- With Jisung Yoon and Yong-Yeol Ahn
+- [PDF Slides](#)
+
+---
+
+### Earlier Presentations
+
+#### **"Detecting citation cartels in journal networks"**
+*International School and Conference on Network Science (NetSci), Rome, Italy, September 17-25, 2020*
+- With Giacomo Livan and Naoki Masuda
+- [PDF Slides](#)
+
+#### **"Structural changes in the interbank market across the financial crisis"**
+*International School and Conference on Network Science (NetSci), Vermont, U.S., May 26-31, 2019*
+- With Giulio Cimini, Guido Caldarelli, and Naoki Masuda
+- [PDF Slides](#)
+
+#### **"Finding multiple core-periphery structure with random walks"**
+*5th International Workshop on Complex Networks and their Applications, Milan, Italy, November 30-December 2, 2016*
+- [PDF Slides](#)
+- **Award**: Best Contribution on Financial Networks Award
 
 ---
 
 ## Teaching Materials
 
-### SSIE 580: Network Science
-Course slides from graduate-level network science course
-- [Lecture 1: Introduction to Networks](#)
-- [Lecture 2: Network Measures](#)
-- [Lecture 3: Community Detection](#)
-- [Lecture 4: Network Dynamics](#)
-- [Full Course Materials](#)
+### SSIE 641: Advanced Topics in Network Science
+Graduate-level course covering advanced topics in network science
+- **Term**: Fall 2023, Fall 2024
+- **Institution**: Binghamton University
+- [Course Materials](#) (Coming soon)
 
-### SSIE 480: Data Science for Engineers
-Selected lectures on graph mining and social network analysis
-- [Graph Algorithms for Data Science](#)
-- [Network Visualization Techniques](#)
+### SSIE 419/519: Applied Soft Computing
+Course on soft computing methods with applications
+- **Term**: Spring 2024, Spring 2025
+- **Institution**: Binghamton University
+- [Course Materials](#) (Coming soon)
 
----
-
-## Keynotes & Invited Talks
-
-### **"The Diff of Ideas: Teaching AI to Understand Human Learning"**
-*AI & Education Symposium, 2025*
-- [PDF Slides](#)
-- **Key Idea**: How the philosophical concept of "differential understanding" can guide AI development
-
-### **"Computational Constructionism: Operationalizing Social Theory"**
-*Computational Social Science Summit, 2024*
-- [PDF Slides](#)
-- **Key Idea**: Bridging sociology and computer science through network embeddings
+### BL-INFO-I590: Data Visualization
+Graduate course on data visualization principles and techniques
+- **Term**: Fall 2023
+- **Institution**: Indiana University
+- [Course Materials](#) (Coming soon)
 
 ---
 
-## Poster Presentations
+## Selected Poster Presentations
 
-- **"Residual2Vec: Community Detection via Residual Embedding"** — NetSci 2023 [PDF](#)
-- **"Detecting Multiscale Structure in Networks"** — ASONAM 2022 [PDF](#)
-- **"Node Embeddings Preserve Network Topology"** — IC2S2 2022 [PDF](#)
+### 2025
+
+- **"Implicit degree bias in the link prediction task"** — ICML, Vienna, Austria, July 21-27, 2025. With Rachith Aiyappa, Xin Wang, Munjung Kim, et al. [PDF](#)
+- **"On the high-order cumulative advantage in citation and collaboration networks in science"** — NetSci, Maastricht, June 2025. With Yoshiaki Fujita and Akshay Gangadhar. [PDF](#)
+
+### 2024
+
+- **"Self-Supervised Modularity Maximization using graph embeddings for clustering"** — NetSci, Quebec, Canada, June 16-21, 2024. With Govind Gandhi and Yong-Yeol Ahn. [PDF](#)
+- **"Analyzing Patient Reviews on Google Map Hospital Profiles through Neural Embedding and Network Modeling"** — NERCCS, Clarkson, NY, March 20-22, 2024. With Xin Wang. [PDF](#)
+- **"User Trust Modeling in Conversational User Interface Based on Word Embedding Bias"** — ACM Conference on Conversational User Interfaces, July 8-10, 2024. With Xin Wang. [PDF](#)
+
+### 2023
+
+- **"A biased contrastive learning debiases graph neural networks"** — NetSci, Vienna, Austria, July 12-14, 2023. With Ashutosh Tiwari and Yong-Yeol Ahn. [PDF](#)
+- **"Understanding the landscape of COVID-19 research by using neural embedding"** — ICSSI, Chicago, IL, June 26-29, 2023. [PDF](#)
+- **"Quantifying disruptiveness using a neural embedding method"** — ICSSI, Chicago, IL, June 26-29, 2023. With Munjung Kim and Yong-Yeol Ahn. [PDF](#)
+
+### Earlier Posters
+
+- **"Constructing networks from correlation matrices: An application to economical data"** — Threshold Networks, Nottingham, UK, July 22-24, 2019. [PDF](#)
+- **"A generalised significance test for individual communities in networks"** — NetSci, Paris, France, June 11-15, 2018. [PDF](#)
+- **"Multi-scale organisation of core-periphery structure in networks"** — 1st Latin American Conference on Complex Networks, Puebla, Mexico, September 25-29, 2017. [PDF](#)
 
 ---
 
-## Design & Visualization
+## Honors & Awards
 
-We believe in clear, beautiful scientific communication. Some of our visualization work:
-
-- **[Network Visualization Gallery](#)** — Examples of effective network visualizations
-- **[Presentation Template](#)** — Our LaTeX beamer template for lab talks
-- **[Figure Guidelines](#)** — Best practices for scientific figures
+- **Best Presentation Award** — CompleNet, 2025
+- **Art of Science Competition Finalist, Judges Choice** — Binghamton University, 2024 [14/85 entries]
+- **Best Contribution on Financial Networks Award** — NetSci-X, 2017 [1/58 presenters]
+- **Dean Award** — Graduate School of Information Science and Technology, Hokkaido University, 2015
+- **Best Student Award** — The World Congress on Engineering, 2013
 
 ---
 
-## Slide Archives
+## Professional Service
 
-Looking for a specific talk? Browse our complete archive:
-- [2025 Talks](#)
-- [2024 Talks](#)
-- [2023 Talks](#)
-- [Earlier Talks](#)
+### Workshop Organization
+
+- **Chair**, Rep4CS: Representation learning for complex systems (satellite workshop at Conference on Complex Systems 2024, Exeter, UK)
+- **Organizer**, NetSci-X 2020: International School and Conference on Network Science, Tokyo, Japan
+
+### Program Committee
+
+- International School and Conference on Network Science (NetSci): 2019, 2020, 2021, 2022, 2023
 
 ---
 
 ## Request Slides
 
-Can't find the slides you're looking for? Email us at [skojaku@binghamton.edu](mailto:skojaku@binghamton.edu).
+Can't find the slides you're looking for or interested in a specific presentation?
 
-We're happy to share slides and speaking notes for educational purposes.
+Email us at [skojaku@binghamton.edu](mailto:skojaku@binghamton.edu).
+
+We're happy to share slides and speaking notes for educational and research purposes.
 
 ---
 
