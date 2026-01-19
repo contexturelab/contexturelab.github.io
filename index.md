@@ -10,7 +10,7 @@ subtitle: Mapping the Fabric of Social Reality
 
 <div class="lab-intro" style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 3rem;">
   <p>
-    <strong>The Contexture Lab recovers the continuity that categorical thinking erases.</strong> Reality exists as interconnected continua without natural boundaries, yet we impose categorical partitions to comprehend it. While this aids interpretation, categorization introduces bias and conceals underlying structure. We develop methods to reveal the spectra and nuance that categorical thinking obscures.
+    <strong>The Contexture Lab recovers the continuity that categorical thinking erases.</strong> Reality exists as interconnected continua without natural boundaries, yet we impose categorical partitions to comprehend it—introducing bias and concealing underlying structure. We develop methods to reveal the spectra and nuance that these partitions obscure.
   </p>
 </div>
 
