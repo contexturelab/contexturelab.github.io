@@ -3,9 +3,6 @@ layout: page
 title: People
 ---
 
-# People
-
----
 
 ## Faculty
 

@@ -6,17 +6,17 @@ entries:
   - title: home
     url: /
 
+  - title: people
+    url: people
+
   - title: research
     url: research
 
-  - title: people
-    url: people
+  - title: artwork
+    url: artwork
 
   - title: code & data
     url: code-data
 
   - title: slides
     url: slides
-
-  - title: artwork
-    url: artwork

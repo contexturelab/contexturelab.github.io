@@ -32,7 +32,7 @@ invited_talks:
 
   - year: 2024
     title: "Machine learns simplicity in complexity"
-    venue: "Invited Seminar"
+    venue: "Complex Systems Research Exchange"
     date: "July 2, 2024"
     slides: "https://drive.google.com/file/d/12tc5GaWkIXb_252V7krQld9KWfN6GmYd/view?usp=sharing"
 
@@ -55,14 +55,14 @@ invited_talks:
     venue: "Network Inequality, NetSci 2022"
     location: "Shanghai, China"
     date: "July 21, 2022"
-    slides: "#"
+    slides: "https://drive.google.com/file/d/1cqk9RtUw5Qlmz5gvpIKtF12b9NJiFgV4/view?usp=drive_link"
 
   - year: 2021
     title: "The effectiveness of backward contact tracing in networks"
     venue: "The State University of New York at Buffalo"
     location: "Buffalo, USA"
     date: "June 4, 2021"
-    slides: "#"
+    slides: "https://docs.google.com/presentation/d/1_8em6f-g16cKckfHzHvClC7KGWcM4AEYx2xivNo_0gs/edit?usp=sharing"
 
   - year: 2019
     title: "Algorithms for detecting network cores and their applications"
@@ -77,7 +77,7 @@ oral_presentations:
     authors: "Yoshiaki Fujita, Akshay Gangadhar, Sadamori Kojaku"
     venue: "NERCCS"
     date: "April 2025"
-    slides: "https://drive.google.com/file/d/1G7ducmkgBF8vRwVdBZoGYqtf-ZcV17Ta/view?usp=sharing"
+    slides: "#"
 
   - year: 2025
     title: "On the high-order cumulative advantage in citation and collaboration networks in science"
@@ -125,7 +125,7 @@ oral_presentations:
     venue: "NetSci"
     location: "Maastricht, Netherlands"
     date: "June 2025"
-    slides: "#"
+    slides: "https://docs.google.com/presentation/d/1Gib95fxk1mIg3RWpx46ngEw_qDNnXwck/edit?usp=sharing&ouid=116354871145192231774&rtpof=true&sd=true"
 
   - year: 2024
     title: "Uncovering the universal dynamics of citation systems: From science of science to law of law and patterns of patents"
@@ -157,7 +157,7 @@ oral_presentations:
     venue: "NetSci"
     location: "Vienna, Austria"
     date: "July 12-14, 2023"
-    slides: "#"
+    slides: "https://drive.google.com/file/d/1clNX9vsv7rAQHOzc-61N0zUCJmVNk6J_/view?usp=sharing"
 
   - year: 2022
     title: "Mapping Scientific Foraging"
@@ -165,7 +165,7 @@ oral_presentations:
     venue: "ICSSI"
     location: "Washington D.C., USA"
     date: "June 6-9, 2022"
-    slides: "#"
+    slides: "https://drive.google.com/file/d/1xTSIiJjLfZ1vUxdBNyuTb0RyDyHxlWQW/view?usp=sharing"
 
   - year: 2022
     title: "DisamBERT: author name disambiguation with BERT"
@@ -173,7 +173,7 @@ oral_presentations:
     venue: "ICSSI"
     location: "Washington D.C., USA"
     date: "June 6-9, 2022"
-    slides: "#"
+    slides: "https://drive.google.com/file/d/1N_Cnz4wbBcVoBcz8El3FopJNlpbWWXy6/view?usp=sharing"
 
   - year: 2021
     title: "The effectiveness of backward contact tracing in networks"
@@ -197,7 +197,7 @@ oral_presentations:
     venue: "NetSci"
     location: "Virtual"
     date: "July 5-10, 2021"
-    slides: "#"
+    slides: "https://drive.google.com/file/d/1tA4Cz2G84X7JxxQDvdCHClyxf7jzNSII/view?usp=sharing"
 
   - year: 2021
     title: "Unsupervised embedding of trajectories captures the latent structure of mobility"
@@ -261,9 +261,9 @@ poster_presentations:
     title: "Implicit degree bias in the link prediction task"
     authors: "Rachith Aiyappa, Xin Wang, Munjung Kim, Ozgur Can Seckin, Jisung Yoon, Yong-Yeol Ahn, Sadamori Kojaku"
     venue: "ICML"
-    location: "Vienna, Austria"
+    location: "Vancouver, Canada"
     date: "July 21-27, 2025"
-    pdf: "#"
+    pdf: "https://github.com/skojaku/degree-corrected-link-prediction-benchmark/blob/main/figs/poster.png"
 
   - year: 2025
     title: "On the high-order cumulative advantage in citation and collaboration networks in science"
@@ -362,14 +362,14 @@ poster_presentations:
 
 teaching:
   - course: "SSIE 641: Advanced Topics in Network Science"
-    terms: "Fall 2023, 2024"
+    terms: "Fall 2023, 2024, 2025"
     institution: "Binghamton University"
-    materials: "#"
+    materials: "https://skojaku.github.io/adv-net-sci/"
 
   - course: "SSIE 419/519: Applied Soft Computing"
     terms: "Spring 2024, 2025"
     institution: "Binghamton University"
-    materials: "#"
+    materials: "https://skojaku.github.io/applied-soft-comp/"
 
   - course: "BL-INFO-I590: Data Visualization"
     terms: "Fall 2023"

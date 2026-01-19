@@ -3,11 +3,8 @@ layout: page
 title: Slides
 ---
 
-# Slides & Presentations
+The lab started since 2023 and anyting older than that is from the work by Sadamori Kojaku.
 
-Conference talks, seminars, and teaching materials from Contexture Lab.
-
----
 
 ## Keynote & Invited Talks
 

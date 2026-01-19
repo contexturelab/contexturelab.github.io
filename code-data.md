@@ -3,12 +3,6 @@ layout: page
 title: Code & Data
 ---
 
-# Code & Data
-
-Open science is at the heart of our research. We make our code and data publicly available to support reproducibility and enable others to build on our work.
-
----
-
 ## Code
 
 ### Embeddings
@@ -23,7 +17,7 @@ Open science is at the heart of our research. We make our code and data publicly
 - **[degree-corrected-link-prediction-benchmark](https://github.com/skojaku/degree-corrected-link-prediction-benchmark)** — Degree-corrected link prediction benchmark
 - **[core-periphery-detection](https://github.com/skojaku/core-periphery-detection)** — Algorithms for detecting core-periphery structure in networks
 - **[qstest](https://github.com/skojaku/qstest)** — Statistical test for community detection
-- **[cidre](https://github.com/skojaku/cidre)** — Citation cartel detection
+- **[cidre](https://github.com/skojaku/cidre)** — Algorithms for identifying abnormal citation groups 
 - **[Disruption index](https://gist.github.com/skojaku/cee26755645b133a69d6630c79307cde)** — Code for calculating disruption index
 
 ---
@@ -31,6 +25,15 @@ Open science is at the heart of our research. We make our code and data publicly
 ## Data
 
 - **[Uncovering the universal dynamics of citation systems: From science of science to law of law and patterns of patents](https://figshare.com/projects/Uncovering_the_universal_dynamics_of_citation_systems_From_science_of_science_to_law_of_law_and_patterns_of_patents/202335)** — Comprehensive citation datasets across multiple domains
+
+## Tools
+
+- **[doi2bibtex](https://gist.github.com/skojaku/35c00f6a78f7e651b866050d9cbd7e9a)** — A simple tool to convert DOIs to BibTeX entries
+- **[json2slide](https://gist.github.com/skojaku/7bac0e3f6fa48ed3c80dc8129e0b49c8)** - A simple tool to convert JSON data to HTML slides
+
+## Educational Resources
+
+- **[Practical guide to sentence embedding](https://github.com/skojaku/Practical-Guide-to-Sentence-Transformers)** — A practical guide to using sentence transformers for various NLP tasks
 
 ---
 
