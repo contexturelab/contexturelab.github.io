@@ -29,27 +29,6 @@ title: People
 
 ---
 
-## Postdoctoral Researchers
-
-{% if site.data.people.postdocs %}
-{% for person in site.data.people.postdocs %}
-<div style="margin-bottom: 1.5rem; overflow: auto;">
-  {% if person.image %}
-  <img src="{{ person.image }}" alt="{{ person.name }}" style="width: 100px; height: 100px; object-fit: cover; float: left; margin-right: 1rem; border-radius: 8px;">
-  {% endif %}
-  <h4 style="margin-top: 0;">{{ person.name }}</h4>
-  <p>{{ person.role }}</p>
-  {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
-  {% if person.email %}<p><a href="mailto:{{ person.email }}">Email</a></p>{% endif %}
-  {% if person.website %}<p><a href="{{ person.website }}" target="_blank">Website</a></p>{% endif %}
-</div>
-{% endfor %}
-{% else %}
-<p><em>No postdoctoral researchers currently in the lab.</em></p>
-{% endif %}
-
----
-
 ## Graduate Students
 
 {% if site.data.people.students %}
