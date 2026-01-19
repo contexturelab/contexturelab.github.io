@@ -7,15 +7,15 @@
 
 - date: 2025-09-23
   title: "Invited to speak at CompleNet 2026"
-  description: "https://x.com/CompleNet/status/1970442276901134776"
+  description: "Sadamori Kojaku is invited for a keynote speach. https://x.com/CompleNet/status/1970442276901134776"
+
+- date: 2025-07-21
+  title: "Link prediction paper presented at ICML 2025"
+  description: "Our paper on implicit degree bias in link prediction was presented at ICML 2025 in Vancouver, Canada (Acceptance rate: 26.9%)."
 
 - date: 2025-06-01
   title: "Lab presents 3 papers at NetSci 2025"
   description: "Xin Wang and Xuanchi Li presented their work at NetSci 2025 in Maastricht, Netherlands on implicit degree bias in link prediction and near-linear time algorithms for configuration models."
-
-- date: 2025-05-01
-  title: "Link prediction paper accepted at ICML 2025"
-  description: "Xin Wang's paper on implicit degree bias in link prediction was accepted at ICML 2025 after a tough long run (Acceptance rate: 26.9%)."
 
 - date: 2025-05-01
   title: "VizTrust featured on BingUNews"
@@ -27,7 +27,7 @@
 
 - date: 2025-04-01
   title: "Lab presents at CompleNet 2025"
-  description: "Xin Wang and Xuanchi Li presented papers on link prediction bias and configuration model algorithms at CompleNet 2025 in Brazil."
+  description: "Xuanchi Li and Sadamori Kojaku presented papers on link prediction bias and configuration model algorithms at CompleNet 2025 in Brazil."
 
 - date: 2024-07-08
   title: "Xin Wang presents at ACM CUI 2024"
