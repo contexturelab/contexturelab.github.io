@@ -29,6 +29,13 @@ invited_talks:
     date: "July 2, 2024"
     slides: "https://drive.google.com/file/d/12tc5GaWkIXb_252V7krQld9KWfN6GmYd/view?usp=sharing"
 
+  - year: 2024
+    title: "Unsupervised Embedding of Trajectories Captures the Latent Structure of Scientific Migration"
+    venue: "CCSS Workshop on Computational Social Science, Center for Computational Social Science, Kobe University"
+    location: "Kobe, Japan"
+    date: "December 26, 2024"
+    slides: "https://drive.google.com/file/d/1ooEZ8uMWXqD_6ZyKZofua2cw4GRU_m3J/view?usp=drive_link"
+
   - year: 2022
     title: "Distilling rich but crude scholarly data using representation learning"
     venue: "IUNI Lunch Colloquium"
