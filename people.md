@@ -33,15 +33,19 @@ title: People
 
 {% if site.data.people.students %}
 {% for person in site.data.people.students %}
-<div style="margin-bottom: 1.5rem; overflow: auto;">
+<div style="display: flex; gap: 1.5rem; margin-bottom: 2rem; align-items: flex-start;">
   {% if person.image %}
-  <img src="{{ person.image }}" alt="{{ person.name }}" style="width: 100px; height: 100px; object-fit: cover; float: left; margin-right: 1rem; border-radius: 8px;">
+  <div style="flex-shrink: 0;">
+    <img src="{{ person.image }}" alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px;">
+  </div>
   {% endif %}
-  <h4 style="margin-top: 0;">{{ person.name }}</h4>
-  <p>{{ person.role }}</p>
-  {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
-  {% if person.email %}<p><a href="mailto:{{ person.email }}">Email</a></p>{% endif %}
-  {% if person.website %}<p><a href="{{ person.website }}" target="_blank">Website</a></p>{% endif %}
+  <div style="flex-grow: 1;">
+    <h3 style="margin-top: 0;">{{ person.name }}</h3>
+    <p><strong>{{ person.role }}</strong></p>
+    {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
+    {% if person.website %}<p><a href="{{ person.website }}" target="_blank">Website</a></p>{% endif %}
+    {% if person.email %}<p><a href="mailto:{{ person.email }}">Email</a></p>{% endif %}
+  </div>
 </div>
 {% endfor %}
 {% else %}
