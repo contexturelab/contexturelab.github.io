@@ -199,7 +199,7 @@ oral_presentations:
     venue: "NetSci"
     location: "Rome, Italy"
     date: "September 17-25, 2020"
-    slides: "#"
+    slides: "https://drive.google.com/file/d/12QkfRUMWFzxSPq2tC53DQ9Ek4RYuxJEx/view?usp=drive_link"
 
   - year: 2019
     title: "Structural changes in the interbank market across the financial crisis from multiple core-periphery analysis"
