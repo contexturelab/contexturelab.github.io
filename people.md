@@ -11,18 +11,22 @@ title: People
 
 {% if site.data.people.faculty %}
 {% for person in site.data.people.faculty %}
-<div style="margin-bottom: 2rem; overflow: auto;">
+<div style="display: flex; gap: 1.5rem; margin-bottom: 2rem; align-items: flex-start;">
   {% if person.image %}
-  <img src="{{ person.image }}" alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; float: left; margin-right: 1.5rem; border-radius: 8px;">
+  <div style="flex-shrink: 0;">
+    <img src="{{ person.image }}" alt="{{ person.name }}" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px;">
+  </div>
   {% endif %}
-  <h3 style="margin-top: 0;">{{ person.name }}</h3>
-  <p><strong>{{ person.role }}</strong>{% if person.title %} — {{ person.title }}{% endif %}</p>
-  {% if person.affiliation %}<p>{{ person.affiliation }}</p>{% endif %}
-  {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
-  <p>
-    {% if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
-    {% if person.website %} | <a href="{{ person.website }}" target="_blank">Website</a>{% endif %}
-  </p>
+  <div style="flex-grow: 1;">
+    <h3 style="margin-top: 0;">{{ person.name }}</h3>
+    <p><strong>{{ person.role }}</strong>{% if person.title %} — {{ person.title }}{% endif %}</p>
+    {% if person.affiliation %}<p>{{ person.affiliation }}</p>{% endif %}
+    {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
+    <p>
+      {% if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
+      {% if person.website %} | <a href="{{ person.website }}" target="_blank">Website</a>{% endif %}
+    </p>
+  </div>
 </div>
 {% endfor %}
 {% endif %}
