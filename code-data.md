@@ -9,107 +9,31 @@ Open science is at the heart of our research. We make our code and data publicly
 
 ---
 
-## Repositories
+## Code
 
-### Lab GitHub Organization
-All our code is hosted on GitHub:
-- **[Contexture Lab on GitHub](https://github.com/contexturelab)** — Main organization repository
+### Embeddings
 
-### Individual Projects
-
-#### Network Science & Embedding
-
-- **[graph-embedding-tools](https://github.com/skojaku/graph-embedding-tools)** — Tools for network representation learning
-- **[hyperbolic-embedding](https://github.com/skojaku/hyperbolic-embedding)** — Hyperbolic space embeddings for hierarchical networks
-
-#### Community Detection
-
-- **[core-periphery-detection](https://github.com/skojaku/core-periphery-detection)** — Algorithms for detecting core-periphery structure in networks
 - **[residual2vec](https://github.com/skojaku/residual2vec)** — Residual-based network embedding
+- **[embedding-disruptiveness](https://github.com/yy/embedding-disruptiveness)** — Embedding-based disruption analysis
+- **[community_citation_model](https://github.com/skojaku/community_citation_model)** — Community-based citation modeling
 
-#### Science of Science
+### Network Analysis
 
-- **[citation-analysis-tools](https://github.com/skojaku/citation-analysis-tools)** — Tools for analyzing citation networks and scientific impact
-
----
-
-## Datasets
-
-We curate and share datasets used in our research:
-
-### Network Datasets
-- **Coming soon** — Curated collection of social and information networks
-
-### Citation Networks
-- **Coming soon** — Large-scale citation networks for science of science research
-
-### Benchmark Datasets
-- **Coming soon** — Standardized benchmarks for network embedding evaluation
+- **[scola](https://github.com/skojaku/scola)** — Constructing networks from correlations
+- **[degree-corrected-link-prediction-benchmark](https://github.com/skojaku/degree-corrected-link-prediction-benchmark)** — Degree-corrected link prediction benchmark
+- **[core-periphery-detection](https://github.com/skojaku/core-periphery-detection)** — Algorithms for detecting core-periphery structure in networks
+- **[qstest](https://github.com/skojaku/qstest)** — Statistical test for community detection
+- **[cidre](https://github.com/skojaku/cidre)** — Citation cartel detection
+- **[Disruption index](https://gist.github.com/skojaku/cee26755645b133a69d6630c79307cde)** — Code for calculating disruption index
 
 ---
 
-## Software Packages
+## Data
 
-### Python Libraries
-
-#### **[scikit-network](https://github.com/skojaku/scikit-network)** (Contributor)
-Graph mining and network analysis toolkit compatible with scikit-learn.
-
-```bash
-pip install scikit-network
-```
-
-#### **[embcom](https://github.com/skojaku/embcom)**
-Community detection using network embeddings.
-
-```bash
-pip install embcom
-```
-
----
-
-## Tutorials & Notebooks
-
-We provide Jupyter notebooks and tutorials to help others use our tools:
-
-- **[Network Embedding Tutorial](https://github.com/skojaku/network-embedding-tutorial)** — Introduction to network representation learning
-- **[Hyperbolic Geometry for Networks](https://github.com/skojaku/hyperbolic-tutorial)** — Understanding non-Euclidean embeddings
-
----
-
-## Data Sharing Policy
-
-We are committed to:
-- **Open Source**: All research code is released under permissive licenses (MIT/Apache 2.0)
-- **Reproducibility**: We provide code to reproduce all figures and results in our papers
-- **Documentation**: Clear documentation and examples for all tools
-- **Data Access**: Public datasets are shared through established repositories (Zenodo, OSF, etc.)
-
-For datasets that cannot be publicly shared due to privacy concerns, we provide:
-- Synthetic datasets with similar properties
-- Data access protocols for qualified researchers
-- Aggregate statistics and anonymized summaries
-
----
-
-## Computational Resources
-
-Our research is supported by:
-- Binghamton University High-Performance Computing cluster
-- NSF XSEDE allocations (pending)
-
----
-
-## Citation
-
-If you use our code or data in your research, please cite the relevant papers. See our [publications](https://scholar.google.com/citations?user=IyWt4R4AAAAJ&hl=en) for citation information.
+- **[Uncovering the universal dynamics of citation systems: From science of science to law of law and patterns of patents](https://figshare.com/projects/Uncovering_the_universal_dynamics_of_citation_systems_From_science_of_science_to_law_of_law_and_patterns_of_patents/202335)** — Comprehensive citation datasets across multiple domains
 
 ---
 
 ## Contact
 
 Questions about our code or data? Contact us at [skojaku@binghamton.edu](mailto:skojaku@binghamton.edu).
-
----
-
-[Back to Home](/)
