@@ -1,5 +1,5 @@
 # Slides and Presentations Data
-# Structure organized by category
+# Each presentation at a different venue is listed as a separate item
 
 keynote_talks:
   - year: 2026
@@ -13,240 +13,317 @@ invited_talks:
   - year: 2024
     title: "Neural embeddings unveil simplicity in complex systems"
     venue: "American Physical Society March Meeting"
-    location: "Minneapolis, MN"
+    location: "Minneapolis, MN, USA"
     date: "March 4-8, 2024"
     slides: "#"
 
   - year: 2022
     title: "Distilling rich but crude scholarly data using representation learning"
     venue: "IUNI Lunch Colloquium"
-    location: "Indiana University"
+    location: "Indiana University, USA"
     date: "October 28, 2022"
     slides: "#"
 
   - year: 2022
     title: "Residual2Vec: Debiasing graph embedding with random graphs"
-    venue: "NetSci 2022"
+    venue: "Network Inequality, NetSci 2022"
     location: "Shanghai, China"
     date: "July 21, 2022"
     slides: "#"
 
   - year: 2021
     title: "The effectiveness of backward contact tracing in networks"
-    venue: "SUNY Buffalo"
+    venue: "The State University of New York at Buffalo"
+    location: "Buffalo, USA"
     date: "June 4, 2021"
     slides: "#"
 
   - year: 2019
     title: "Algorithms for detecting network cores and their applications"
-    venue: "Institute of Statistical Mathematics"
+    venue: "Network Science Seminar, Institute of Statistical Mathematics"
     location: "Japan"
     date: "August 28-30, 2019"
     slides: "#"
 
-conference_presentations:
+oral_presentations:
   - year: 2025
     title: "On the high-order cumulative advantage in citation and collaboration networks in science"
-    authors: "Y. Fujita, A. Gangadhar"
-    venues:
-      - name: "NERCCS"
-        date: "April 2025"
-        type: "Oral"
-      - name: "NetSci, Maastricht"
-        date: "June 2025"
-        type: "Oral & Poster"
+    authors: "Yoshiaki Fujita, Akshay Gangadhar, Sadamori Kojaku"
+    venue: "NERCCS"
+    date: "April 2025"
+    slides: "#"
+
+  - year: 2025
+    title: "On the high-order cumulative advantage in citation and collaboration networks in science"
+    authors: "Yoshiaki Fujita, Akshay Gangadhar, Sadamori Kojaku"
+    venue: "NetSci"
+    location: "Maastricht, Netherlands"
+    date: "June 2025"
     slides: "#"
 
   - year: 2025
     title: "Network community detection via neural embeddings"
-    authors: "F. Radicchi, Y-Y. Ahn, S. Fortunato"
-    venues:
-      - name: "CompleNet, Brazil"
-        date: "April 2025"
-        type: "Oral"
+    authors: "Sadamori Kojaku, Filippo Radicchi, Yong-Yeol Ahn, Santo Fortunato"
+    venue: "CompleNet"
+    location: "Casa José de Alencar, Brazil"
+    date: "April 2025"
     slides: "#"
 
   - year: 2025
     title: "Implicit degree bias in the link prediction task"
-    authors: "R. Aiyappa, X. Wang, M. Kim, et al."
-    venues:
-      - name: "CompleNet"
-        date: "April 2025"
-        type: "Oral"
-      - name: "NetSci, Maastricht"
-        date: "June 2025"
-        type: "Oral"
-      - name: "ICML, Vienna"
-        date: "July 2025"
-        type: "Poster"
+    authors: "Rachith Aiyappa, Xin Wang, Munjung Kim, Ozgur Can Seckin, Jisung Yoon, Yong-Yeol Ahn, Sadamori Kojaku"
+    venue: "CompleNet"
+    location: "Brazil"
+    date: "April 2025"
     slides: "#"
-    poster: "#"
+
+  - year: 2025
+    title: "Implicit degree bias in the link prediction task"
+    authors: "Rachith Aiyappa, Xin Wang, Munjung Kim, Ozgur Can Seckin, Jisung Yoon, Yong-Yeol Ahn, Sadamori Kojaku"
+    venue: "NetSci"
+    location: "Maastricht, Netherlands"
+    date: "June 2025"
+    slides: "#"
 
   - year: 2025
     title: "Near-linear time algorithm for the configuration models for networks"
-    authors: "X. Li, X. Wang"
-    venues:
-      - name: "CompleNet, Brazil"
-        date: "April 2025"
-        type: "Oral"
-      - name: "NetSci, Maastricht"
-        date: "June 2025"
-        type: "Oral"
+    authors: "Xuanchi Li, Xin Wang, Sadamori Kojaku"
+    venue: "CompleNet"
+    location: "Casa José de Alencar, Brazil"
+    date: "April 2025"
+    slides: "#"
+
+  - year: 2025
+    title: "Near-linear time algorithm for the configuration models for networks"
+    authors: "Xuanchi Li, Xin Wang, Sadamori Kojaku"
+    venue: "NetSci"
+    location: "Maastricht, Netherlands"
+    date: "June 2025"
     slides: "#"
 
   - year: 2024
-    title: "Uncovering the universal dynamics of citation systems"
-    authors: "R. Mahari, S. Lera, E. Moro, et al."
-    venues:
-      - name: "NERCCS, Clarkson, NY"
-        date: "March 20-22, 2024"
-        type: "Oral"
+    title: "Uncovering the universal dynamics of citation systems: From science of science to law of law and patterns of patents"
+    authors: "Sadamori Kojaku, Robert Mahari, Sandro Lera, Esteban Moro, Alex Pentland, Yong-Yeol Ahn"
+    venue: "NERCCS"
+    location: "Clarkson, NY, USA"
+    date: "March 20-22, 2024"
     slides: "#"
-
-  - year: 2024
-    title: "Analyzing Patient Reviews on Google Map Hospital Profiles"
-    authors: "X. Wang"
-    venues:
-      - name: "NERCCS"
-        date: "March 20-22, 2024"
-        type: "Poster"
-    poster: "#"
 
   - year: 2023
-    title: "Uncovering the universal dynamics of citation systems"
-    authors: "R. Mahari, S. Lera, E. Moro, et al."
-    venues:
-      - name: "NetSci, Vienna"
-        date: "July 12-14, 2023"
-        type: "Oral"
-      - name: "ICSSI, Chicago"
-        date: "June 26-29, 2023"
-        type: "Oral"
+    title: "Uncovering the universal dynamics of citation systems: From science of science to law of law and patterns of patents"
+    authors: "Sadamori Kojaku, Robert Mahari, Sandro Lera, Esteban Moro, Alex Pentland, Yong-Yeol Ahn"
+    venue: "NetSci"
+    location: "Vienna, Austria"
+    date: "July 12-14, 2023"
+    slides: "#"
+
+  - year: 2023
+    title: "Uncovering the universal dynamics of citation systems: From science of science to law of law and patterns of patents"
+    authors: "Sadamori Kojaku, Robert Mahari, Sandro Lera, Esteban Moro, Alex Pentland, Yong-Yeol Ahn"
+    venue: "ICSSI"
+    location: "Chicago, IL, USA"
+    date: "June 26-29, 2023"
     slides: "#"
 
   - year: 2023
     title: "Network community detection via neural embeddings"
-    authors: "F. Radicchi, Y-Y. Ahn, S. Fortunato"
-    venues:
-      - name: "NetSci, Vienna"
-        date: "July 12-14, 2023"
-        type: "Oral"
+    authors: "Sadamori Kojaku, Filippo Radicchi, Yong-Yeol Ahn, Santo Fortunato"
+    venue: "NetSci"
+    location: "Vienna, Austria"
+    date: "July 12-14, 2023"
     slides: "#"
 
   - year: 2022
     title: "Mapping Scientific Foraging"
-    authors: "C. Boothby, F. N. Silva, A. Varga, et al."
-    venues:
-      - name: "ICSSI, Washington D.C."
-        date: "June 6-9, 2022"
-        type: "Oral"
+    authors: "Sadamori Kojaku, Clara Boothby, Filipi Nascimento Silva, Attila Varga, Xiaoran Yan, Staša Milojević, Alessandro Flammini, Filippo Menczer, Yong-Yeol Ahn"
+    venue: "ICSSI"
+    location: "Washington D.C., USA"
+    date: "June 6-9, 2022"
     slides: "#"
 
   - year: 2022
     title: "DisamBERT: author name disambiguation with BERT"
-    authors: "X. Yan, J. Yoon, F. N. Silva, et al."
-    venues:
-      - name: "ICSSI, Washington D.C."
-        date: "June 6-9, 2022"
-        type: "Oral"
+    authors: "Sadamori Kojaku, Xiaoran Yan, Jisung Yoon, Filipi N. Silva, Vincent Lariviere, Yong-Yeol Ahn"
+    venue: "ICSSI"
+    location: "Washington D.C., USA"
+    date: "June 6-9, 2022"
     slides: "#"
 
   - year: 2021
     title: "The effectiveness of backward contact tracing in networks"
-    authors: "L. Hébert-Dufresne, E. Mones, S. Lehmann, Y-Y. Ahn"
-    venues:
-      - name: "NetSci, Virtual"
-        date: "July 5-10, 2021"
-        type: "Oral"
+    authors: "Sadamori Kojaku, Laurent Hébert-Dufresne, Enys Mones, Sune Lehmann, Yong-Yeol Ahn"
+    venue: "NetSci"
+    location: "Virtual"
+    date: "July 5-10, 2021"
     slides: "#"
 
   - year: 2021
     title: "Residual2Vec: A null model approach for graph embedding"
-    authors: "J. Yoon, Y-Y. Ahn"
-    venues:
-      - name: "NetSci, Virtual"
-        date: "July 5-10, 2021"
-        type: "Oral"
+    authors: "Sadamori Kojaku, Jisung Yoon, Yong-Yeol Ahn"
+    venue: "NetSci"
+    location: "Virtual"
+    date: "July 5-10, 2021"
+    slides: "#"
+
+  - year: 2021
+    title: "Unsupervised embedding of trajectories captures the latent structure of mobility"
+    authors: "Dakota Murray, Jisung Yoon, Sadamori Kojaku, Rodrigo Costas, Woo-Sung Jung, Staša Milojević, Yong-Yeol Ahn"
+    venue: "NetSci"
+    location: "Virtual"
+    date: "July 5-10, 2021"
+    slides: "#"
+
+  - year: 2020
+    title: "The landscape of the COVID-19 research: A neural embedding approach"
+    authors: "Sadamori Kojaku, Attila Varga, Xiaoran Yan, Filipi N. Silva, Staša Milojević, Alessandro Flammini, Yong-Yeol Ahn"
+    venue: "NetSci"
+    location: "Rome, Italy"
+    date: "September 17-25, 2020"
     slides: "#"
 
   - year: 2020
     title: "Detecting citation cartels in journal networks"
-    authors: "G. Livan, N. Masuda"
-    venues:
-      - name: "NetSci, Rome, Italy"
-        date: "September 17-25, 2020"
-        type: "Oral"
+    authors: "Sadamori Kojaku, Giacomo Livan, Naoki Masuda"
+    venue: "NetSci"
+    location: "Rome, Italy"
+    date: "September 17-25, 2020"
     slides: "#"
 
   - year: 2019
-    title: "Structural changes in the interbank market across the financial crisis"
-    authors: "G. Cimini, G. Caldarelli, N. Masuda"
-    venues:
-      - name: "NetSci, Vermont, U.S."
-        date: "May 26-31, 2019"
-        type: "Oral"
+    title: "Structural changes in the interbank market across the financial crisis from multiple core-periphery analysis"
+    authors: "Sadamori Kojaku, Giulio Cimini, Guido Caldarelli, Naoki Masuda"
+    venue: "NetSci"
+    location: "Vermont, U.S."
+    date: "May 26-31, 2019"
+    slides: "#"
+
+  - year: 2018
+    title: "Core-periphery structure in degree-heterogeneous networks"
+    authors: "Sadamori Kojaku, Naoki Masuda"
+    venue: "NetSci-X"
+    location: "Hangzhou, China"
+    date: "2018"
     slides: "#"
 
   - year: 2016
     title: "Finding multiple core-periphery structure with random walks"
-    venues:
-      - name: "5th International Workshop on Complex Networks, Milan"
-        date: "November 30-December 2, 2016"
-        type: "Oral"
+    authors: "Sadamori Kojaku, Naoki Masuda"
+    venue: "5th International Workshop on Complex Networks and their Applications"
+    location: "Milan, Italy"
+    date: "November 30-December 2, 2016"
     slides: "#"
     award: "Best Contribution on Financial Networks Award"
 
-posters:
+  - year: 2016
+    title: "Fast random k-labelsets for large-scale multi-label classification"
+    authors: "Keigo Kimura, Mineichi Kudo, Lu Sun, Sadamori Kojaku"
+    venue: "23rd International Conference on Pattern Recognition"
+    location: "Cancun, Mexico"
+    date: "December 4-8, 2016"
+    slides: "#"
+
+poster_presentations:
+  - year: 2025
+    title: "Implicit degree bias in the link prediction task"
+    authors: "Rachith Aiyappa, Xin Wang, Munjung Kim, Ozgur Can Seckin, Jisung Yoon, Yong-Yeol Ahn, Sadamori Kojaku"
+    venue: "ICML"
+    location: "Vienna, Austria"
+    date: "July 21-27, 2025"
+    pdf: "#"
+
+  - year: 2025
+    title: "On the high-order cumulative advantage in citation and collaboration networks in science"
+    authors: "Yoshiaki Fujita, Akshay Gangadhar, Sadamori Kojaku"
+    venue: "NetSci"
+    location: "Maastricht, Netherlands"
+    date: "June 2025"
+    pdf: "#"
+
   - year: 2024
-    title: "Self-Supervised Modularity Maximization using graph embeddings"
-    authors: "G. Gandhi, Y-Y. Ahn"
-    venue: "NetSci, Quebec, Canada"
+    title: "User Trust Modeling in Conversational User Interface Based on Word Embedding Bias"
+    authors: "Xin Wang, Sadamori Kojaku"
+    venue: "The ACM Conference on Conversational User Interfaces"
+    date: "July 8-10, 2024"
+    pdf: "#"
+
+  - year: 2024
+    title: "Self-Supervised Modularity Maximization using graph embeddings for clustering"
+    authors: "Govind Gandhi, Yong-Yeol Ahn, Sadamori Kojaku"
+    venue: "NetSci"
+    location: "Quebec, Canada"
     date: "June 16-21, 2024"
     pdf: "#"
 
   - year: 2024
-    title: "User Trust Modeling in Conversational UI Based on Word Embedding Bias"
-    authors: "X. Wang"
-    venue: "ACM Conversational User Interfaces"
-    date: "July 8-10, 2024"
+    title: "Analyzing Patient Reviews on Google Map Hospital Profiles through Neural Embedding and Network Modeling"
+    authors: "Xin Wang, Sadamori Kojaku"
+    venue: "NERCCS"
+    location: "Clarkson, NY, USA"
+    date: "March 20-22, 2024"
     pdf: "#"
 
   - year: 2023
     title: "A biased contrastive learning debiases graph neural networks"
-    authors: "A. Tiwari, Y-Y. Ahn"
-    venue: "NetSci, Vienna"
+    authors: "Ashutosh Tiwari, Sadamori Kojaku, Yong-Yeol Ahn"
+    venue: "NetSci"
+    location: "Vienna, Austria"
     date: "July 12-14, 2023"
     pdf: "#"
 
   - year: 2023
     title: "Understanding the landscape of COVID-19 research by using neural embedding"
-    venue: "ICSSI, Chicago"
+    authors: "Sadamori Kojaku, Clara Boothby, Filipi Nascimento Silva, Attila Varga, Xiaoran Yan, Staša Milojević, Alessandro Flammini, Filippo Menczer, Yong-Yeol Ahn"
+    venue: "ICSSI"
+    location: "Chicago, IL, USA"
     date: "June 26-29, 2023"
     pdf: "#"
 
   - year: 2023
     title: "Quantifying disruptiveness using a neural embedding method"
-    authors: "M. Kim, Y-Y. Ahn"
-    venue: "ICSSI, Chicago"
+    authors: "Munjung Kim, Sadamori Kojaku, Yong-Yeol Ahn"
+    venue: "ICSSI"
+    location: "Chicago, IL, USA"
     date: "June 26-29, 2023"
     pdf: "#"
 
   - year: 2019
-    title: "Constructing networks from correlation matrices"
-    venue: "Threshold Networks, Nottingham, UK"
+    title: "Constructing networks from correlation matrices: An application to economical data"
+    authors: "Sadamori Kojaku, Naoki Masuda"
+    venue: "Threshold Networks"
+    location: "Nottingham, UK"
     date: "July 22-24, 2019"
     pdf: "#"
 
   - year: 2018
     title: "A generalised significance test for individual communities in networks"
-    venue: "NetSci, Paris"
+    authors: "Sadamori Kojaku, Naoki Masuda"
+    venue: "NetSci"
+    location: "Paris, France"
     date: "June 11-15, 2018"
     pdf: "#"
 
   - year: 2017
     title: "Multi-scale organisation of core-periphery structure in networks"
-    venue: "Latin American Conference on Complex Networks, Puebla, Mexico"
+    authors: "Sadamori Kojaku, Naoki Masuda"
+    venue: "1st Latin American Conference on Complex Networks"
+    location: "Puebla, Mexico"
     date: "September 25-29, 2017"
+    pdf: "#"
+
+  - year: 2017
+    title: "Core-periphery structure of networks: Consideration for random heterogeneous networks"
+    authors: "Sadamori Kojaku, Naoki Masuda"
+    venue: "NetSci"
+    location: "Indianapolis, Indiana, USA"
+    date: "2017"
+    pdf: "#"
+
+  - year: 2017
+    title: "An extension of modularity for finding multiple core/periphery structure in networks"
+    authors: "Sadamori Kojaku, Naoki Masuda"
+    venue: "NetSci-X"
+    location: "Tel Aviv, Israel"
+    date: "January 15-18, 2017"
     pdf: "#"
 
 teaching:

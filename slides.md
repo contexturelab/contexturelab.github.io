@@ -26,25 +26,25 @@ Conference talks, seminars, and teaching materials from Contexture Lab.
 
 ---
 
-## Conference Presentations
+## Oral Presentations
 
-{% assign pres_by_year = site.data.slides.conference_presentations | group_by: "year" | reverse %}
-{% for year_group in pres_by_year %}
+{% assign oral_by_year = site.data.slides.oral_presentations | group_by: "year" | reverse %}
+{% for year_group in oral_by_year %}
 **{{ year_group.name }}**
 {% for pres in year_group.items %}
-- **"{{ pres.title }}"**{% if pres.authors %} (with {{ pres.authors }}){% endif %} — {% for venue in pres.venues %}{{ venue.name }}, {{ venue.date }} ({{ venue.type }}){% unless forloop.last %}; {% endunless %}{% endfor %} {% if pres.slides %}[[Slides]]({{ pres.slides }}){% endif %}{% if pres.poster %} [[Poster]]({{ pres.poster }}){% endif %}{% if pres.award %} **({{ pres.award }})**{% endif %}
+- **"{{ pres.title }}"** ({{ pres.authors }}) — {{ pres.venue }}{% if pres.location %}, {{ pres.location }}{% endif %}, {{ pres.date }} [[Slides]]({{ pres.slides }}){% if pres.award %} **({{ pres.award }})**{% endif %}
 {% endfor %}
 {% endfor %}
 
 ---
 
-## Selected Posters
+## Poster Presentations
 
-{% assign posters_by_year = site.data.slides.posters | group_by: "year" | reverse %}
-{% for year_group in posters_by_year %}
+{% assign poster_by_year = site.data.slides.poster_presentations | group_by: "year" | reverse %}
+{% for year_group in poster_by_year %}
 **{{ year_group.name }}**
 {% for poster in year_group.items %}
-- **"{{ poster.title }}"**{% if poster.authors %} (with {{ poster.authors }}){% endif %} — {{ poster.venue }}, {{ poster.date }} [[PDF]]({{ poster.pdf }})
+- **"{{ poster.title }}"** ({{ poster.authors }}) — {{ poster.venue }}{% if poster.location %}, {{ poster.location }}{% endif %}, {{ poster.date }} [[PDF]]({{ poster.pdf }})
 {% endfor %}
 {% endfor %}
 
