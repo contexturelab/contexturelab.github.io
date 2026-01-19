@@ -15,16 +15,14 @@ title: People
   {% if person.image %}
   <img src="{{ person.image }}" alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; float: left; margin-right: 1.5rem; border-radius: 8px;">
   {% endif %}
-  <div>
-    <h3 style="margin-top: 0;">{{ person.name }}</h3>
-    <p><strong>{{ person.role }}</strong>{% if person.title %} — {{ person.title }}{% endif %}</p>
-    {% if person.affiliation %}<p>{{ person.affiliation }}</p>{% endif %}
-    {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
-    <p>
-      {% if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
-      {% if person.website %} | <a href="{{ person.website }}" target="_blank">Website</a>{% endif %}
-    </p>
-  </div>
+  <h3 style="margin-top: 0;">{{ person.name }}</h3>
+  <p><strong>{{ person.role }}</strong>{% if person.title %} — {{ person.title }}{% endif %}</p>
+  {% if person.affiliation %}<p>{{ person.affiliation }}</p>{% endif %}
+  {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
+  <p>
+    {% if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
+    {% if person.website %} | <a href="{{ person.website }}" target="_blank">Website</a>{% endif %}
+  </p>
 </div>
 {% endfor %}
 {% endif %}
@@ -39,12 +37,11 @@ title: People
   {% if person.image %}
   <img src="{{ person.image }}" alt="{{ person.name }}" style="width: 100px; height: 100px; object-fit: cover; float: left; margin-right: 1rem; border-radius: 8px;">
   {% endif %}
-  <div>
-    <h4 style="margin-top: 0;">{{ person.name }}</h4>
-    <p>{{ person.role }}</p>
-    {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
-    {% if person.email %}<p><a href="mailto:{{ person.email }}">Email</a></p>{% endif %}
-  </div>
+  <h4 style="margin-top: 0;">{{ person.name }}</h4>
+  <p>{{ person.role }}</p>
+  {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
+  {% if person.email %}<p><a href="mailto:{{ person.email }}">Email</a></p>{% endif %}
+  {% if person.website %}<p><a href="{{ person.website }}" target="_blank">Website</a></p>{% endif %}
 </div>
 {% endfor %}
 {% else %}
@@ -61,12 +58,11 @@ title: People
   {% if person.image %}
   <img src="{{ person.image }}" alt="{{ person.name }}" style="width: 100px; height: 100px; object-fit: cover; float: left; margin-right: 1rem; border-radius: 8px;">
   {% endif %}
-  <div>
-    <h4 style="margin-top: 0;">{{ person.name }}</h4>
-    <p>{{ person.role }}</p>
-    {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
-    {% if person.email %}<p><a href="mailto:{{ person.email }}">Email</a></p>{% endif %}
-  </div>
+  <h4 style="margin-top: 0;">{{ person.name }}</h4>
+  <p>{{ person.role }}</p>
+  {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
+  {% if person.email %}<p><a href="mailto:{{ person.email }}">Email</a></p>{% endif %}
+  {% if person.website %}<p><a href="{{ person.website }}" target="_blank">Website</a></p>{% endif %}
 </div>
 {% endfor %}
 {% else %}
