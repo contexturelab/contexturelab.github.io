@@ -72,6 +72,14 @@ invited_talks:
     slides: "#"
 
 oral_presentations:
+  - year: 2026
+    title: "Detectability threshold in weighted modular networks"
+    authors: "Filippo Radicchi, Filipi N. Silva, Alessandro Flammini, Santo Fortunato, Sadamori Kojaku"
+    venue: "NetSci"
+    location: "Boston, MA, USA"
+    date: "June 3-5, 2026"
+    slides: "#"
+
   - year: 2025
     title: "On the high-order cumulative advantage in citation and collaboration networks in science"
     authors: "Yoshiaki Fujita, Akshay Gangadhar, Sadamori Kojaku"
@@ -257,6 +265,14 @@ oral_presentations:
     slides: "#"
 
 poster_presentations:
+  - year: 2026
+    title: "Fast inference for maximum entropy configuration models"
+    authors: "Xuanchi Li, Sadamori Kojaku"
+    venue: "NetSci"
+    location: "Boston, MA, USA"
+    date: "June 3, 2026"
+    pdf: "#"
+
   - year: 2025
     title: "Implicit degree bias in the link prediction task"
     authors: "Rachith Aiyappa, Xin Wang, Munjung Kim, Ozgur Can Seckin, Jisung Yoon, Yong-Yeol Ahn, Sadamori Kojaku"

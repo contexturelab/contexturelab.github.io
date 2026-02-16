@@ -1,6 +1,10 @@
 # Lab News
 # Add news items here in reverse chronological order (newest first)
 
+- date: 2026-02-16
+  title: "Lab presents at NetSci 2026"
+  description: "Xuanchi Li and Sadamori Kojaku will present their work at [NetSci 2026](https://www.netsci2026.com/) in Boston (June 1-5, 2026), the 20th anniversary of the flagship conference of the Network Science Society. Presentations include a contributed talk on detectability thresholds in weighted modular networks and a poster on fast inference for maximum entropy configuration models."
+
 - date: 2025-10-01
   title: "VizTrust highlighted in Communications of the ACM 🎉"
   description: "Xin Wang's VizTrust project was featured in Communications of the ACM. It's truly an honor!"
