@@ -3,11 +3,11 @@
 
 keynote_talks:
   - year: 2026
-    title: "Keynote Speaker"
+    title: "Keynote Speach"
     venue: "CompleNet 2026"
     location: "Zaragoza, Spain"
     date: "May 4-8, 2026"
-    slides: "#"
+    slides: "https://drive.google.com/file/d/13PnzBjOGL7KcF9TJHYfcjIz0-sZP7SyM/view?pli=1"
 
 invited_talks:
   - year: 2026
