@@ -35,6 +35,16 @@ subtitle: Mapping the Fabric of Social Reality
 
 <hr style="margin: 2rem 0; border: 0; border-top: 1px solid #eee;">
 
+## Press Coverage
+
+| Outlet | Date | Link |
+|--------|------|------|
+| Binghamton University News | 2026-04-01 (posted 2026-05-07) | [Eureka! Researchers develop new way to detect breakthroughs in science](https://www.binghamton.edu/news/story/6153/eureka-scientists-develop-new-way-to-detect-breakthroughs-in-science) |
+| Physics World | 2026-04-09 | [Have you published a disruptive paper? New machine-learning tool helps you check](https://physicsworld.com/a/have-you-published-a-disruptive-paper-new-machine-learning-tool-helps-you-check/) |
+| APS Physics | 2026 | [APS Physics v19/63](https://physics.aps.org/articles/v19/63) |
+
+<hr style="margin: 2rem 0; border: 0; border-top: 1px solid #eee;">
+
 <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #eee; font-size: 0.9rem; color: #666;">
   <p>
     The Contexture Lab is led by <a href="https://skojaku.github.io/">Sadamori Kojaku</a>, Assistant Professor in the School of Systems Science and Industrial Engineering (SSIE) at Binghamton University.

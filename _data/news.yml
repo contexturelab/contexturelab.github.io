@@ -1,6 +1,10 @@
 # Lab News
 # Add news items here in reverse chronological order (newest first)
 
+- date: 2026-05-08
+  title: "Keynote at CompleNet 2026"
+  description: "Sadamori Kojaku delivered a keynote on neural embeddings and network science at [CompleNet 2026](https://complenet.weeblysite.com) in Zaragoza, Spain (May 4–8, 2026)."
+
 - date: 2026-02-16
   title: "Lab presents at NetSci 2026"
   description: "Xuanchi Li and Sadamori Kojaku will present their work at [NetSci 2026](https://www.netsci2026.com/) in Boston (June 1-5, 2026), the 20th anniversary of the flagship conference of the Network Science Society. Presentations include a contributed talk on detectability thresholds in weighted modular networks and a poster on fast inference for maximum entropy configuration models."
