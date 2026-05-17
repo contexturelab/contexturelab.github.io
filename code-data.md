@@ -24,7 +24,9 @@ title: Code & Data
 
 ## Data
 
-- **[Uncovering the universal dynamics of citation systems: From science of science to law of law and patterns of patents](https://figshare.com/projects/Uncovering_the_universal_dynamics_of_citation_systems_From_science_of_science_to_law_of_law_and_patterns_of_patents/202335)** — Comprehensive citation datasets across multiple domains
+- **[Openalex](https://github.com/skojaku/openalex-dataset)** — #science-of-science/data
+- **[arxiv](https://github.com/skojaku/arxiv-dataset)** — #science-of-science/data
+- **[Case Law](https://github.com/skojaku/caselaw-dataset)** — #science-of-science/data
 
 ## Tools
 
