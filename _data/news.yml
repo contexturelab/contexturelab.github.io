@@ -5,9 +5,21 @@
   title: "Keynote at CompleNet 2026"
   description: "Sadamori Kojaku delivered a keynote on neural embeddings and network science at [CompleNet 2026](https://complenet.weeblysite.com) in Zaragoza, Spain (May 4–8, 2026)."
 
+- date: 2026-04-09
+  title: "Press coverage in Physics World"
+  description: "[Have you published a disruptive paper? New machine-learning tool helps you check](https://physicsworld.com/a/have-you-published-a-disruptive-paper-new-machine-learning-tool-helps-you-check/)"
+
+- date: 2026-04-01
+  title: "Press coverage on Binghamton University News"
+  description: "[Eureka! Researchers develop new way to detect breakthroughs in science](https://www.binghamton.edu/news/story/6153/eureka-scientists-develop-new-way-to-detect-breakthroughs-in-science) (posted 2026-05-07)"
+
 - date: 2026-02-16
   title: "Lab presents at NetSci 2026"
   description: "Xuanchi Li and Sadamori Kojaku will present their work at [NetSci 2026](https://www.netsci2026.com/) in Boston (June 1-5, 2026). Presentations include a contributed talk on detectability thresholds in weighted modular networks and a poster on fast inference for maximum entropy configuration models."
+
+- date: 2026-01-01
+  title: "Press coverage in APS Physics"
+  description: "[APS Physics v19/63](https://physics.aps.org/articles/v19/63)"
 
 - date: 2025-10-01
   title: "VizTrust highlighted in Communications of the ACM 🎉"
