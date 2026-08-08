@@ -1,0 +1,186 @@
+name: pi-issue-to-pr
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+  issue_comment:
+    types: [created]
+
+concurrency:
+  group: pi-issue-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  process:
+    # Only react to @pi mention / pi label from trusted author (skojaku)
+    if: >
+      (
+        (github.event_name == 'issues' && github.event.action != 'labeled' && contains(github.event.issue.body, '@pi')) ||
+        (github.event_name == 'issues' && github.event.action == 'labeled' && github.event.label.name == 'pi') ||
+        (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@pi'))
+      ) &&
+      github.event.sender.login == 'skojaku'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install pi
+        run: npm install -g @earendil-works/pi-coding-agent
+
+      - name: Extract issue context
+        id: ctx
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          ISSUE_NUM="${{ github.event.issue.number }}"
+          TITLE=$(gh issue view "$ISSUE_NUM" --json title --jq .title)
+          BODY=$(gh issue view "$ISSUE_NUM" --json body --jq .body)
+
+          if [ "${{ github.event_name }}" = "issue_comment" ]; then
+            COMMENT=$(gh api "repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}" --jq .body)
+            BODY="${BODY}
+
+          ---
+          Latest comment that triggered this run:
+          ${COMMENT}"
+          fi
+
+          {
+            echo "title<<EOF"
+            echo "$TITLE"
+            echo "EOF"
+            echo "body<<EOF"
+            echo "$BODY"
+            echo "EOF"
+            echo "issue_number=${ISSUE_NUM}"
+            echo "branch=pi/issue-${ISSUE_NUM}"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Configure git
+        run: |
+          git config user.name "pi-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Create / reset working branch
+        env:
+          BRANCH: ${{ steps.ctx.outputs.branch }}
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git checkout -B "$BRANCH" origin/main
+
+      - name: Run pi
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          ISSUE_TITLE: ${{ steps.ctx.outputs.title }}
+          ISSUE_BODY: ${{ steps.ctx.outputs.body }}
+          ISSUE_NUMBER: ${{ steps.ctx.outputs.issue_number }}
+        run: |
+          set -euo pipefail
+          if [ -z "${OPENROUTER_API_KEY:-}" ]; then
+            echo "OPENROUTER_API_KEY secret is not set"
+            exit 1
+          fi
+
+          PROMPT=$(cat <<PROMPT_EOF
+          GitHub issue #${ISSUE_NUMBER}: ${ISSUE_TITLE}
+
+          ${ISSUE_BODY}
+
+          Task:
+          - This is a Jekyll site (no-style-please theme) for Contexture Lab.
+          - Content pages live as markdown in the repo root (index.md, research.md, people.md, code-data.md, slides.md, artwork.md) and under _posts/ / posts/.
+          - Site-wide settings are in _config.yml and _data/.
+          - Make the minimal precise edits needed to satisfy the issue request.
+          - Prefer editing existing files over creating new ones.
+          - Do not rewrite unrelated content.
+          - Do not commit, push, or open a PR yourself; the workflow handles git.
+          - After edits, briefly summarize what you changed.
+          PROMPT_EOF
+          )
+
+          pi --print \
+            --provider openrouter \
+            --model "x-ai/grok-4.5" \
+            --api-key "$OPENROUTER_API_KEY" \
+            --no-session \
+            --approve \
+            --system-prompt "You are an automated website editor for a Jekyll lab site. Edit files with the built-in tools. Keep changes minimal and correct. Never invent facts about people or papers." \
+            "$PROMPT"
+
+      - name: Commit and push
+        id: commit
+        env:
+          BRANCH: ${{ steps.ctx.outputs.branch }}
+          ISSUE_NUMBER: ${{ steps.ctx.outputs.issue_number }}
+          ISSUE_TITLE: ${{ steps.ctx.outputs.title }}
+        run: |
+          set -euo pipefail
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No file changes from pi."
+            exit 0
+          fi
+          git commit -m "pi: ${ISSUE_TITLE} (refs #${ISSUE_NUMBER})"
+          git push -u origin "HEAD:${BRANCH}" --force-with-lease
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update PR
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: ${{ steps.ctx.outputs.branch }}
+          ISSUE_NUMBER: ${{ steps.ctx.outputs.issue_number }}
+          ISSUE_TITLE: ${{ steps.ctx.outputs.title }}
+        run: |
+          set -euo pipefail
+          EXISTING=$(gh pr list --head "$BRANCH" --json number --jq '.[0].number // empty')
+          BODY="Auto-generated by pi from issue #${ISSUE_NUMBER}.
+
+          Review carefully before merge.
+
+          Trigger: \`@pi\` mention or \`pi\` label (author allowlist: skojaku)."
+          if [ -n "$EXISTING" ]; then
+            gh pr edit "$EXISTING" --title "pi: ${ISSUE_TITLE}" --body "$BODY"
+            echo "Updated PR #${EXISTING}"
+          else
+            gh pr create \
+              --title "pi: ${ISSUE_TITLE}" \
+              --body "$BODY" \
+              --base main \
+              --head "$BRANCH"
+          fi
+
+      - name: Comment on issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ steps.ctx.outputs.issue_number }}
+          BRANCH: ${{ steps.ctx.outputs.branch }}
+          CHANGED: ${{ steps.commit.outputs.changed }}
+        run: |
+          set -euo pipefail
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          if [ "${CHANGED:-false}" = "true" ]; then
+            PR=$(gh pr list --head "$BRANCH" --json url --jq '.[0].url // empty')
+            MSG="pi finished. PR: ${PR:-branch \`$BRANCH\`}
+
+          Run: $RUN_URL"
+          else
+            MSG="pi finished with no file changes (or failed before commit).
+
+          Run: $RUN_URL"
+          fi
+          gh issue comment "$ISSUE_NUMBER" --body "$MSG"
