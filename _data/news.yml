@@ -1,6 +1,10 @@
 # Lab News
 # Add news items here in reverse chronological order (newest first)
 
+- date: 2026-08-07
+  title: "Wei Xiang Zheng completes BUPNUR summer research"
+  description: "BUPNUR summer student researcher Wei Xiang Zheng completed his contribution to the Calibrated Coordination project: running all three benchmarks across three models (including AssetOpsBench), then evaluating two additional models (GLM-5.1 and MiniMax-3.0) on the same benchmarks, and sharing the project files (2026-07-28)."
+
 - date: 2026-05-08
   title: "Keynote at CompleNet 2026"
   description: "Sadamori Kojaku delivered a keynote on neural embeddings and network science at [CompleNet 2026](https://complenet.weeblysite.com) in Zaragoza, Spain (May 4–8, 2026)."
