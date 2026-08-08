@@ -112,7 +112,7 @@ jobs:
 
           pi --print \
             --provider openrouter \
-            --model "anthropic/claude-sonnet-4" \
+            --model "x-ai/grok-4.5" \
             --api-key "$OPENROUTER_API_KEY" \
             --no-session \
             --approve \
