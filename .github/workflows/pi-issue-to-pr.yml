@@ -21,13 +21,27 @@ jobs:
       ) &&
       github.event.sender.login == 'skojaku'
     runs-on: ubuntu-latest
+    # Org forces workflow GITHUB_TOKEN to read-only; use PI_BOT_TOKEN (PAT) for
+    # checkout/push/PR/comment. permissions below only affect GITHUB_TOKEN.
     permissions:
-      contents: write
-      pull-requests: write
-      issues: write
+      contents: read
+      pull-requests: read
+      issues: read
     steps:
+      - name: Require PI_BOT_TOKEN
+        env:
+          PI_BOT_TOKEN: ${{ secrets.PI_BOT_TOKEN }}
+        run: |
+          if [ -z "${PI_BOT_TOKEN:-}" ]; then
+            echo "PI_BOT_TOKEN secret missing."
+            echo "Org disables write for GITHUB_TOKEN; set a classic/fine-grained PAT with repo contents+PR+issues."
+            exit 1
+          fi
+
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PI_BOT_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -40,7 +54,7 @@ jobs:
       - name: Extract issue context
         id: ctx
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PI_BOT_TOKEN }}
         run: |
           set -euo pipefail
           ISSUE_NUM="${{ github.event.issue.number }}"
@@ -102,6 +116,7 @@ jobs:
           - This is a Jekyll site (no-style-please theme) for Contexture Lab.
           - Content pages live as markdown in the repo root (index.md, research.md, people.md, code-data.md, slides.md, artwork.md) and under _posts/ / posts/.
           - Site-wide settings are in _config.yml and _data/.
+          - News items often live in _data/news.yml.
           - Make the minimal precise edits needed to satisfy the issue request.
           - Prefer editing existing files over creating new ones.
           - Do not rewrite unrelated content.
@@ -125,6 +140,7 @@ jobs:
           BRANCH: ${{ steps.ctx.outputs.branch }}
           ISSUE_NUMBER: ${{ steps.ctx.outputs.issue_number }}
           ISSUE_TITLE: ${{ steps.ctx.outputs.title }}
+          # checkout@v4 with token already embeds credentials in remote URL
         run: |
           set -euo pipefail
           git add -A
@@ -140,7 +156,7 @@ jobs:
       - name: Open or update PR
         if: steps.commit.outputs.changed == 'true'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PI_BOT_TOKEN }}
           BRANCH: ${{ steps.ctx.outputs.branch }}
           ISSUE_NUMBER: ${{ steps.ctx.outputs.issue_number }}
           ISSUE_TITLE: ${{ steps.ctx.outputs.title }}
@@ -164,9 +180,9 @@ jobs:
           fi
 
       - name: Comment on issue
-        if: always()
+        if: always() && steps.ctx.outputs.issue_number != ''
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PI_BOT_TOKEN }}
           ISSUE_NUMBER: ${{ steps.ctx.outputs.issue_number }}
           BRANCH: ${{ steps.ctx.outputs.branch }}
           CHANGED: ${{ steps.commit.outputs.changed }}
