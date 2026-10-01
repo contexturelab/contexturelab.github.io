@@ -33,6 +33,7 @@ students:
     role: "PhD Student"
     image: "/assets/headshots/chand.jpg"
     bio: "Expertise in Data Science, Machine Learning, and Natural Language Processing. Research spans healthcare analytics, energy forecasting, and AI applications."
+    website: "https://www.linkedin.com/in/chandsahilmansuri/"
 
   - name: "Sarah Alzubi"
     role: "PhD Student"
