@@ -39,7 +39,7 @@ students:
     role: "PhD Student"
     image: "/assets/headshots/sarah.png"
     bio: "PhD student interested in machine learning, natural language processing, and trustworthy AI, particularly reliability, interpretability, and uncertainty in language models."
-    website: "https://www.linkedin.com/in/sarah-alzubi-733aa83ab"
+    website: "https://www.linkedin.com/in/sarah-alzu-bi-733aa83ab"
     email: "salzubi@binghamton.edu"
 
   - name: "Amogh Kokari"
