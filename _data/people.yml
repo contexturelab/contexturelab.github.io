@@ -20,7 +20,7 @@ students:
     website: "https://xin-wang-kr.github.io"
 
   - name: "Xuanchi Li"
-    role: "PhD Student"
+    role: "Master Student"
     image: "/assets/headshots/xuanchi.jpg"
     bio: "Research interests in complexity theory, network science, and graph machine learning. Focuses on exploring and recovering connections in data."
 
@@ -33,6 +33,14 @@ students:
     role: "PhD Student"
     image: "/assets/headshots/chand.jpg"
     bio: "Expertise in Data Science, Machine Learning, and Natural Language Processing. Research spans healthcare analytics, energy forecasting, and AI applications."
+    website: "https://www.linkedin.com/in/chandsahilmansuri/"
+
+  - name: "Sarah Alzubi"
+    role: "PhD Student"
+    image: "/assets/headshots/sarah.png"
+    bio: "PhD student interested in machine learning, natural language processing, and trustworthy AI, particularly reliability, interpretability, and uncertainty in language models."
+    website: "https://www.linkedin.com/in/sarah-alzubi-733aa83ab"
+    email: "salzubi@binghamton.edu"
 
   - name: "Amogh Kokari"
     role: "PhD Student"
