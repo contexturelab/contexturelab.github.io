@@ -34,6 +34,13 @@ students:
     image: "/assets/headshots/chand.jpg"
     bio: "Expertise in Data Science, Machine Learning, and Natural Language Processing. Research spans healthcare analytics, energy forecasting, and AI applications."
 
+  - name: "Amogh Kokari"
+    role: "PhD Student"
+    image: "/assets/headshots/amogh.jpg"
+    bio: "Student of Symphony. I orchestrate network of connected systems to discover harmony across finance and biology to science of science. AI Architecture | Interpretability | Trustworthiness"
+    linkedin: "https://www.linkedin.com/in/amoghkokari/"
+    github: "https://github.com/amoghkokari"
+
 # Add postdocs here
 postdocs:
   # - name: "Postdoc Name"

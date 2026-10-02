@@ -44,6 +44,8 @@ title: People
     <h3 style="margin-top: 0;">{{ person.name }}</h3>
     <p><strong>{{ person.role }}</strong></p>
     {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
+    {% if person.linkedin %}<p><a href="{{ person.linkedin }}" target="_blank">LinkedIn</a></p>{% endif %}
+    {% if person.github %}<p><a href="{{ person.github }}" target="_blank">GitHub</a></p>{% endif %}
     {% if person.website %}<p><a href="{{ person.website }}" target="_blank">Website</a></p>{% endif %}
     {% if person.email %}<p><a href="mailto:{{ person.email }}">Email</a></p>{% endif %}
   </div>
