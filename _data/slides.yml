@@ -11,6 +11,13 @@ keynote_talks:
 
 invited_talks:
   - year: 2026
+    title: "Reproducible research and automation and how to regain work-life balance"
+    venue: "yrCSS CCS Warm-Up 2026, Binghamton University"
+    location: "Binghamton, NY, USA"
+    date: "October 9, 2026"
+    slides: "https://skojaku.github.io/assets/attachments/docs/slides/2026-10-09-yrcss-ccs-warmup.html"
+
+  - year: 2026
     title: "つながりを微分する  —— ベクトル表現が捉える、連続体としてのネットワーク"
     venue: "Modeling Higher-Order Structures in Complex Networks and Elucidating Influence Propagation and Robustness Between Remote Nodes. Research Project (PI: Yasuko Yamano)"
     date: "2026"

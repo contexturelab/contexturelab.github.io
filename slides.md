@@ -5,6 +5,8 @@ title: Slides
 
 The lab started since 2023 and anyting older than that is from the work by Sadamori Kojaku.
 
+Talks, slides and selected works are also listed on [Sadamori Kojaku's page](https://skojaku.github.io/research/).
+
 
 ## Keynote & Invited Talks
 

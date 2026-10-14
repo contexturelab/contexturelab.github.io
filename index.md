@@ -40,6 +40,9 @@ subtitle: Mapping the Fabric of Social Reality
     The Contexture Lab is led by <a href="https://skojaku.github.io/">Sadamori Kojaku</a>, Assistant Professor in the School of Systems Science and Industrial Engineering (SSIE) at Binghamton University.
   </p>
   <p>
+    Talks, slides and selected works: <a href="https://skojaku.github.io/research/">skojaku.github.io/research</a>
+  </p>
+  <p>
     <a href="mailto:skojaku@binghamton.edu" style="text-decoration: none; border-bottom: 1px solid currentColor;">skojaku@binghamton.edu</a>
   </p>
 </div>
