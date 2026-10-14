@@ -11,6 +11,13 @@ keynote_talks:
 
 invited_talks:
   - year: 2026
+    title: "Panelist: Practical and Ethical Insights on Using AI in Complex Systems (yrCSS panel)"
+    venue: "Conference on Complex Systems (CCS 2026)"
+    location: "Binghamton, NY, USA"
+    date: "October 13, 2026"
+    slides: "#"
+
+  - year: 2026
     title: "Reproducible research and automation and how to regain work-life balance"
     venue: "yrCSS CCS Warm-Up 2026, Binghamton University"
     location: "Binghamton, NY, USA"
@@ -79,6 +86,14 @@ invited_talks:
     slides: "#"
 
 oral_presentations:
+  - year: 2026
+    title: "Uncovering simultaneous breakthroughs with a robust measure of disruptiveness"
+    authors: "Sadamori Kojaku, Munjung Kim, Yong-Yeol Ahn"
+    venue: "Conference on Complex Systems (CCS 2026)"
+    location: "Binghamton, NY, USA"
+    date: "October 16, 2026"
+    slides: "#"
+
   - year: 2026
     title: "Detectability threshold in weighted modular networks"
     authors: "Filippo Radicchi, Filipi N. Silva, Alessandro Flammini, Santo Fortunato, Sadamori Kojaku"
