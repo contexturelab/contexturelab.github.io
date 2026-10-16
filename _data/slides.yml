@@ -288,6 +288,14 @@ oral_presentations:
 
 poster_presentations:
   - year: 2026
+    title: "Paired Perturbation Evaluation Reveals Bounded and Non-Linear Failure Propagation in Clinical Language Pipelines"
+    authors: "Chand Sahil Mansuri, Sadamori Kojaku"
+    venue: "Conference on Complex Systems (CCS 2026)"
+    location: "Binghamton, NY, USA"
+    date: "October 14, 2026"
+    pdf: "#"
+
+  - year: 2026
     title: "Fast inference for maximum entropy configuration models"
     authors: "Xuanchi Li, Sadamori Kojaku"
     venue: "NetSci"
