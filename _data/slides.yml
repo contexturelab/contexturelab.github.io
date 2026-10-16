@@ -92,7 +92,7 @@ oral_presentations:
     venue: "Conference on Complex Systems (CCS 2026)"
     location: "Binghamton, NY, USA"
     date: "October 16, 2026"
-    slides: "#"
+    slides: "https://skojaku.github.io/talks-ccs-2027-disruption/"
 
   - year: 2026
     title: "Detectability threshold in weighted modular networks"
